@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Recommended settings for application",
+  "extends": [
+    "github>Inthememory/renovate-config:base",
+    "github>Inthememory/renovate-config//preset/groupRecommended",
+    "github>Inthememory/renovate-config//preset/automergeRecommended"
+  ]
+}

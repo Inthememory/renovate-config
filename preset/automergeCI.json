@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge CI dependencies",
+  "packageRules": [
+    {
+      "automerge": true,
+      "matchCategories": ["ci"]
+    }
+  ]
+}
