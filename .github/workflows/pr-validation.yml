@@ -1,0 +1,8 @@
+name: '[PR] Validate Title'
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened, ready_for_review]
+
+jobs:
+  validate:
+    uses: Inthememory/project-config/.github/workflows/pr-title-validation.yml@main

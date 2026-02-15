@@ -1,0 +1,90 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Configuration snapshot > application.json 1`] = `
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default configuration for an application",
+  "extends": [
+    "github>Inthememory/renovate-config:recommended",
+    ":pinAllExceptPeerDependencies",
+  ],
+}
+`;
+
+exports[`Configuration snapshot > base.json 1`] = `
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "assigneesFromCodeOwners": true,
+  "assigneesSampleSize": 1,
+  "automerge": false,
+  "dependencyDashboard": true,
+  "description": "Default base configuration for all Inthememory projects.",
+  "extends": [
+    ":ignoreModulesAndTests",
+    ":semanticPrefixFixDepsChoreOthers",
+    "helpers:disableTypesNodeMajor",
+    "helpers:pinGitHubActionDigests",
+    "docker:pinDigests",
+    "github>Inthememory/renovate-config//preset/commit",
+    "github>Inthememory/renovate-config//preset/schedule",
+    "github>Inthememory/renovate-config//preset/ignore",
+    "replacements:all",
+    "workarounds:all",
+  ],
+  "forkProcessing": "disabled",
+  "ignoreUnstable": true,
+  "lockFileMaintenance": {
+    "automerge": true,
+    "enabled": true,
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "dependencies",
+      ],
+      "matchUpdateTypes": [
+        "major",
+      ],
+      "minimumReleaseAge": "7 days",
+    },
+    {
+      "matchDepTypes": [
+        "dependencies",
+      ],
+      "matchUpdateTypes": [
+        "minor",
+      ],
+      "minimumReleaseAge": "2 days",
+    },
+    {
+      "matchDepTypes": [
+        "dependencies",
+      ],
+      "matchUpdateTypes": [
+        "patch",
+      ],
+      "minimumReleaseAge": "2 days",
+    },
+  ],
+  "platformAutomerge": true,
+  "prConcurrentLimit": 20,
+  "prCreation": "immediate",
+  "prHourlyLimit": 0,
+  "rangeStrategy": "auto",
+  "rebaseWhen": "auto",
+  "separateMajorMinor": true,
+  "separateMinorPatch": true,
+  "updateNotScheduled": true,
+}
+`;
+
+exports[`Configuration snapshot > library.json 1`] = `
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default configuration for a library",
+  "extends": [
+    "github>Inthememory/renovate-config:recommended",
+    ":pinOnlyDevDependencies",
+  ],
+}
+`;

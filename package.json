@@ -1,0 +1,79 @@
+{
+  "name": "@inthememory/renovate-config",
+  "version": "1.0.0-alpha.0",
+  "private": true,
+  "description": "Renovate configuration presets",
+  "keywords": [
+    "renovate",
+    "config",
+    "dependencies"
+  ],
+  "homepage": "https://github.com/Inthememory/renovate-config/blob/main#readme",
+  "bugs": {
+    "url": "https://github.com/Inthememory/renovate-config.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Inthememory/renovate-config.git"
+  },
+  "license": "MIT",
+  "author": "Inthememory",
+  "type": "module",
+  "scripts": {
+    "build": "npx run-p \"build:*\"",
+    "build:empty": ":",
+    "clean": ":",
+    "code-analysis": ":",
+    "develop": ":",
+    "docs": ":",
+    "format": ":",
+    "lint": ":",
+    "postinstall": "npx run-p \"postinstall:*\"",
+    "postinstall:githooks": "[ -n \"${CI:-}\" ] || git config core.hooksPath .githooks",
+    "release": ":",
+    "rescue": "git clean -fdx;yarn install",
+    "test": "npx run-p \"test:*\"",
+    "test:renovate-config": "test/test.sh",
+    "test:unit": "vitest run",
+    "validate": "npm run build && npm run lint && npm test"
+  },
+  "commitlint": {
+    "extends": [
+      "@inthememory/commitlint-config"
+    ]
+  },
+  "lint-staged": {
+    "*.js?(x)": [
+      "eslint"
+    ],
+    "*.yml": [
+      "eslint"
+    ],
+    "*.{json,jsonc,json5}": [
+      "eslint"
+    ],
+    "*.ts?(x)": [
+      "eslint"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "@inthememory/eslint-config"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
+  },
+  "devDependencies": {
+    "npm-run-all2": "8.0.4",
+    "renovate": "43.15.1",
+    "typescript": "5.9.3",
+    "vitest": "4.0.18"
+  },
+  "packageManager": "yarn@4.12.0",
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0",
+    "yarn": ">=1.0.0"
+  }
+}

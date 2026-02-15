@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# BEGIN MANAGED BLOCK
+# TODO: ESLint configuration is required
+# npm exec -- lint-staged
+# END MANAGED BLOCK
