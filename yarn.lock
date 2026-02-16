@@ -1366,7 +1366,7 @@ __metadata:
   resolution: "@inthememory/renovate-config@workspace:."
   dependencies:
     npm-run-all2: "npm:8.0.4"
-    renovate: "npm:43.15.1"
+    renovate: "npm:43.15.3"
     typescript: "npm:5.9.3"
     vitest: "npm:4.0.18"
   languageName: unknown
@@ -7667,9 +7667,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.15.1":
-  version: 43.15.1
-  resolution: "renovate@npm:43.15.1"
+"renovate@npm:43.15.3":
+  version: 43.15.3
+  resolution: "renovate@npm:43.15.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.980.0"
     "@aws-sdk/client-ec2": "npm:3.980.0"
@@ -7802,7 +7802,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/61cd8a85e0c15401aa537b2bd794297ab9e6e9ee90dc2abf975b271c76ec4c18463b09b9db1b5998a00d6701764a619c21ddb92134e74ff40ce42d07d1e4ee67
+  checksum: 10c0/ccb4cf750998dec60b4c8d9bc590212f4817faed7cadb02561c752319e55c3aa28902874f6cea3ec940b03612a17a9025437210bb0f8dc585de0f1bf1db7b061
   languageName: node
   linkType: hard
 
