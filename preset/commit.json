@@ -2,17 +2,17 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Commit conventional commit preset",
   "commitMessagePrefix": "chore(deps): ",
-  "commitMessageAction": "Upgrade",
+  "commitMessageAction": "upgrade",
   "packageRules": [
     {
       "matchUpdateTypes": ["pin"],
       "commitMessagePrefix": "chore(deps): ",
-      "commitMessageAction": "Pin"
+      "commitMessageAction": "pin"
     },
     {
       "matchUpdateTypes": ["rollback"],
       "commitMessagePrefix": "chore(deps): ",
-      "commitMessageAction": "Downgrade"
+      "commitMessageAction": "downgrade"
     },
     {
       "matchUpdateTypes": ["digest", "bump"],
@@ -29,6 +29,6 @@
   ],
   "lockFileMaintenance": {
     "commitMessagePrefix": "chore(deps): ",
-    "commitMessageAction": "Lock file maintenance"
+    "commitMessageAction": "maintain lock file"
   }
 }
