@@ -67,7 +67,7 @@
   "devDependencies": {
     "@inthememory/commitlint-config": "1.0.0-alpha.2",
     "npm-run-all2": "8.0.4",
-    "renovate": "43.19.2",
+    "renovate": "43.26.5",
     "typescript": "5.9.3",
     "vitest": "4.0.18"
   },
