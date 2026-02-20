@@ -66,7 +66,7 @@ For a library repository (where dependencies should be unpinned), use this confi
 
 ## License
 
-[MIT][license-url] © Julien Polo
+[UNLICENSED][license-url] © VusionIntelligence
 
 [license-image]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
 [license-url]: ../../LICENSE
