@@ -20,7 +20,7 @@
     },
     {
       "matchDepTypes": ["devDependencies"],
-      "commitMessagePrefix": "chore(deps-dev): "
+      "commitMessagePrefix": "chore(deps): "
     },
     {
       "commitMessagePrefix": "ci: ",
