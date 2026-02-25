@@ -6,3 +6,4 @@ on:
 jobs:
   pr-validate:
     uses: Inthememory/project-config/.github/workflows/pr.yml@main
+    secrets: inherit

@@ -18,3 +18,4 @@ on:
 jobs:
   ci-validate:
     uses: Inthememory/project-config/.github/workflows/ci.yml@main
+    secrets: inherit
