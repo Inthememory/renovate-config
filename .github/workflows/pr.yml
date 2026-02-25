@@ -4,5 +4,5 @@ on:
     types: [opened, edited, synchronize, reopened, ready_for_review]
 
 jobs:
-  validate:
+  pr-validate:
     uses: Inthememory/project-config/.github/workflows/pr.yml@main

@@ -16,5 +16,5 @@ on:
     branches: [main]
 
 jobs:
-  build:
+  ci-validate:
     uses: Inthememory/project-config/.github/workflows/ci.yml@main
