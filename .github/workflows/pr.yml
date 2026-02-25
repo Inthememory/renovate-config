@@ -3,6 +3,10 @@ on:
   pull_request:
     types: [opened, edited, synchronize, reopened, ready_for_review]
 
+permissions:
+  actions: read    # run checkout and reusable actions
+  contents: read   # checkout
+  packages: read   # install deps from GitHub Packages (ci-setup, ci-install)
 jobs:
   pr-validate:
     uses: Inthememory/project-config/.github/workflows/pr.yml@main
