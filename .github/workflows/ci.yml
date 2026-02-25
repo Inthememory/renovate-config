@@ -5,7 +5,7 @@ name: CI
 
 permissions:
   contents: read
-  packages: read  # download from GitHub Packages
+  packages: read   # download from GitHub Packages
 
 
 on:
