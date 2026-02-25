@@ -31,7 +31,7 @@
     "postinstall": "npx run-p \"postinstall:*\"",
     "postinstall:githooks": "[ -n \"${CI:-}\" ] || git config core.hooksPath .githooks",
     "release": ":",
-    "rescue": "git clean -fdx;yarn install",
+    "rescue": "git clean -fdx; pnpm install",
     "test": "npx run-p \"test:*\"",
     "test:renovate-config": "test/test.sh",
     "test:unit": "vitest run",
@@ -71,10 +71,9 @@
     "typescript": "5.9.3",
     "vitest": "4.0.18"
   },
-  "packageManager": "yarn@4.12.0",
+  "packageManager": "pnpm@9.15.0",
   "engines": {
     "node": ">=12.0.0",
-    "npm": ">=6.0.0",
-    "yarn": ">=1.0.0"
+    "pnpm": ">=9.0.0"
   }
 }
