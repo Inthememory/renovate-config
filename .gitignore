@@ -118,6 +118,9 @@ dist
 .tern-port
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+# Nx
+.nx/cache
+.nx/workspace-data
 # yarn v2
 .yarn/cache
 .yarn/unplugged
@@ -143,3 +146,4 @@ pnpm-lock.yaml.bak
 #                             ⬇ Add Project specific rules below ⬇
 #==================================================================================================
 # END MANAGED BLOCK
+
