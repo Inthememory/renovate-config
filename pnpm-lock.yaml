@@ -11,6 +11,9 @@ importers:
       '@inthememory/commitlint-config':
         specifier: 1.0.0-alpha.2
         version: 1.0.0-alpha.2(@commitlint/cli@20.4.2(@types/node@25.3.0)(typescript@5.9.3))
+      '@inthememory/tsconfig':
+        specifier: 1.0.0-alpha.2
+        version: 1.0.0-alpha.2(typescript@5.9.3)
       npm-run-all2:
         specifier: 8.0.4
         version: 8.0.4
@@ -500,6 +503,15 @@ packages:
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0
+    peerDependenciesMeta:
+      '@commitlint/cli':
+        optional: true
+
+  '@inthememory/tsconfig@1.0.0-alpha.2':
+    resolution: {integrity: sha512-7JYoh80ajxfrNXQINZ478ceDjK8W5FVcsHuSaYjd7bHHLnU+NBkMdJbHc0QMgUNB86++YreOO8cyfdZ0jj5yMQ==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.0-alpha.2/b71718f51249aa7347c9bf600959ab2c347ff1cc}
+    engines: {node: '>=20.0.0'}
+    peerDependencies:
+      typescript: '>=5.x'
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -4642,6 +4654,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
       - typescript
+    optional: true
 
   '@commitlint/config-conventional@20.4.2':
     dependencies:
@@ -4652,6 +4665,7 @@ snapshots:
     dependencies:
       '@commitlint/types': 20.4.0
       ajv: 8.18.0
+    optional: true
 
   '@commitlint/ensure@20.4.1':
     dependencies:
@@ -4661,18 +4675,22 @@ snapshots:
       lodash.snakecase: 4.1.1
       lodash.startcase: 4.4.0
       lodash.upperfirst: 4.3.1
+    optional: true
 
-  '@commitlint/execute-rule@20.0.0': {}
+  '@commitlint/execute-rule@20.0.0':
+    optional: true
 
   '@commitlint/format@20.4.0':
     dependencies:
       '@commitlint/types': 20.4.0
       picocolors: 1.1.1
+    optional: true
 
   '@commitlint/is-ignored@20.4.1':
     dependencies:
       '@commitlint/types': 20.4.0
       semver: 7.7.4
+    optional: true
 
   '@commitlint/lint@20.4.2':
     dependencies:
@@ -4680,6 +4698,7 @@ snapshots:
       '@commitlint/parse': 20.4.1
       '@commitlint/rules': 20.4.2
       '@commitlint/types': 20.4.0
+    optional: true
 
   '@commitlint/load@20.4.0(@types/node@25.3.0)(typescript@5.9.3)':
     dependencies:
@@ -4695,14 +4714,17 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
       - typescript
+    optional: true
 
-  '@commitlint/message@20.4.0': {}
+  '@commitlint/message@20.4.0':
+    optional: true
 
   '@commitlint/parse@20.4.1':
     dependencies:
       '@commitlint/types': 20.4.0
       conventional-changelog-angular: 8.1.0
       conventional-commits-parser: 6.2.1
+    optional: true
 
   '@commitlint/read@20.4.0':
     dependencies:
@@ -4711,6 +4733,7 @@ snapshots:
       git-raw-commits: 4.0.0
       minimist: 1.2.8
       tinyexec: 1.0.2
+    optional: true
 
   '@commitlint/resolve-extends@20.4.0':
     dependencies:
@@ -4720,6 +4743,7 @@ snapshots:
       import-meta-resolve: 4.2.0
       lodash.mergewith: 4.6.2
       resolve-from: 5.0.0
+    optional: true
 
   '@commitlint/rules@20.4.2':
     dependencies:
@@ -4727,12 +4751,15 @@ snapshots:
       '@commitlint/message': 20.4.0
       '@commitlint/to-lines': 20.0.0
       '@commitlint/types': 20.4.0
+    optional: true
 
-  '@commitlint/to-lines@20.0.0': {}
+  '@commitlint/to-lines@20.0.0':
+    optional: true
 
   '@commitlint/top-level@20.4.0':
     dependencies:
       escalade: 3.2.0
+    optional: true
 
   '@commitlint/types@20.4.0':
     dependencies:
@@ -4826,9 +4853,14 @@ snapshots:
 
   '@inthememory/commitlint-config@1.0.0-alpha.2(@commitlint/cli@20.4.2(@types/node@25.3.0)(typescript@5.9.3))':
     dependencies:
-      '@commitlint/cli': 20.4.2(@types/node@25.3.0)(typescript@5.9.3)
       '@commitlint/config-conventional': 20.4.2
       '@commitlint/types': 20.4.0
+    optionalDependencies:
+      '@commitlint/cli': 20.4.2(@types/node@25.3.0)(typescript@5.9.3)
+
+  '@inthememory/tsconfig@1.0.0-alpha.2(typescript@5.9.3)':
+    dependencies:
+      typescript: 5.9.3
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -5828,6 +5860,7 @@ snapshots:
       fast-uri: 3.1.0
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
+    optional: true
 
   ansi-regex@5.0.1: {}
 
@@ -6002,7 +6035,8 @@ snapshots:
       call-bind-apply-helpers: 1.0.2
       get-intrinsic: 1.3.0
 
-  callsites@3.1.0: {}
+  callsites@3.1.0:
+    optional: true
 
   camelcase-keys@6.2.2:
     dependencies:
@@ -6048,6 +6082,7 @@ snapshots:
       string-width: 4.2.3
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
+    optional: true
 
   clone-response@1.0.3:
     dependencies:
@@ -6074,6 +6109,7 @@ snapshots:
   conventional-changelog-angular@8.1.0:
     dependencies:
       compare-func: 2.0.0
+    optional: true
 
   conventional-changelog-conventionalcommits@9.1.0:
     dependencies:
@@ -6100,6 +6136,7 @@ snapshots:
       cosmiconfig: 9.0.0(typescript@5.9.3)
       jiti: 2.6.1
       typescript: 5.9.3
+    optional: true
 
   cosmiconfig@9.0.0(typescript@5.9.3):
     dependencies:
@@ -6109,6 +6146,7 @@ snapshots:
       parse-json: 5.2.0
     optionalDependencies:
       typescript: 5.9.3
+    optional: true
 
   croner@10.0.1: {}
 
@@ -6132,7 +6170,8 @@ snapshots:
 
   dargs@7.0.0: {}
 
-  dargs@8.1.0: {}
+  dargs@8.1.0:
+    optional: true
 
   data-uri-to-buffer@4.0.1: {}
 
@@ -6266,7 +6305,8 @@ snapshots:
 
   entities@4.5.0: {}
 
-  env-paths@2.2.1: {}
+  env-paths@2.2.1:
+    optional: true
 
   error-ex@1.3.4:
     dependencies:
@@ -6315,7 +6355,8 @@ snapshots:
       '@esbuild/win32-ia32': 0.27.3
       '@esbuild/win32-x64': 0.27.3
 
-  escalade@3.2.0: {}
+  escalade@3.2.0:
+    optional: true
 
   escape-string-regexp@4.0.0: {}
 
@@ -6375,7 +6416,8 @@ snapshots:
       merge2: 1.4.1
       micromatch: 4.0.8
 
-  fast-uri@3.1.0: {}
+  fast-uri@3.1.0:
+    optional: true
 
   fast-xml-parser@5.3.6:
     dependencies:
@@ -6487,7 +6529,8 @@ snapshots:
 
   generator-function@2.0.1: {}
 
-  get-caller-file@2.0.5: {}
+  get-caller-file@2.0.5:
+    optional: true
 
   get-intrinsic@1.3.0:
     dependencies:
@@ -6531,6 +6574,7 @@ snapshots:
       dargs: 8.1.0
       meow: 12.1.1
       split2: 4.2.0
+    optional: true
 
   git-up@8.1.1:
     dependencies:
@@ -6586,6 +6630,7 @@ snapshots:
   global-directory@4.0.1:
     dependencies:
       ini: 4.1.1
+    optional: true
 
   globalthis@1.0.4:
     dependencies:
@@ -6736,6 +6781,7 @@ snapshots:
     dependencies:
       parent-module: 1.0.1
       resolve-from: 4.0.0
+    optional: true
 
   import-in-the-middle@2.0.6:
     dependencies:
@@ -6744,7 +6790,8 @@ snapshots:
       cjs-module-lexer: 2.2.0
       module-details-from-path: 1.0.4
 
-  import-meta-resolve@4.2.0: {}
+  import-meta-resolve@4.2.0:
+    optional: true
 
   imurmurhash@0.1.4: {}
 
@@ -6761,7 +6808,8 @@ snapshots:
   ini@1.3.8:
     optional: true
 
-  ini@4.1.1: {}
+  ini@4.1.1:
+    optional: true
 
   ini@6.0.0: {}
 
@@ -6848,7 +6896,8 @@ snapshots:
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
-  jiti@2.6.1: {}
+  jiti@2.6.1:
+    optional: true
 
   js-md4@0.3.2: {}
 
@@ -6877,7 +6926,8 @@ snapshots:
 
   json-parse-even-better-errors@4.0.0: {}
 
-  json-schema-traverse@1.0.0: {}
+  json-schema-traverse@1.0.0:
+    optional: true
 
   json-stringify-pretty-compact@4.0.0: {}
 
@@ -6940,17 +6990,23 @@ snapshots:
     dependencies:
       p-locate: 6.0.0
 
-  lodash.camelcase@4.3.0: {}
+  lodash.camelcase@4.3.0:
+    optional: true
 
-  lodash.kebabcase@4.1.1: {}
+  lodash.kebabcase@4.1.1:
+    optional: true
 
-  lodash.mergewith@4.6.2: {}
+  lodash.mergewith@4.6.2:
+    optional: true
 
-  lodash.snakecase@4.1.1: {}
+  lodash.snakecase@4.1.1:
+    optional: true
 
-  lodash.startcase@4.4.0: {}
+  lodash.startcase@4.4.0:
+    optional: true
 
-  lodash.upperfirst@4.3.1: {}
+  lodash.upperfirst@4.3.1:
+    optional: true
 
   lodash@4.17.23: {}
 
@@ -7120,7 +7176,8 @@ snapshots:
 
   memorystream@0.3.1: {}
 
-  meow@12.1.1: {}
+  meow@12.1.1:
+    optional: true
 
   meow@13.2.0: {}
 
@@ -7622,6 +7679,7 @@ snapshots:
   parent-module@1.0.1:
     dependencies:
       callsites: 3.1.0
+    optional: true
 
   parse-json@5.2.0:
     dependencies:
@@ -7978,9 +8036,11 @@ snapshots:
       - supports-color
       - typanion
 
-  require-directory@2.1.1: {}
+  require-directory@2.1.1:
+    optional: true
 
-  require-from-string@2.0.2: {}
+  require-from-string@2.0.2:
+    optional: true
 
   require-in-the-middle@8.0.1:
     dependencies:
@@ -7991,9 +8051,11 @@ snapshots:
 
   resolve-alpn@1.2.1: {}
 
-  resolve-from@4.0.0: {}
+  resolve-from@4.0.0:
+    optional: true
 
-  resolve-from@5.0.0: {}
+  resolve-from@5.0.0:
+    optional: true
 
   resolve@1.22.11:
     dependencies:
@@ -8227,7 +8289,8 @@ snapshots:
     dependencies:
       readable-stream: 3.6.2
 
-  split2@4.2.0: {}
+  split2@4.2.0:
+    optional: true
 
   sprintf-js@1.0.3: {}
 
@@ -8616,7 +8679,8 @@ snapshots:
 
   xtend@4.0.2: {}
 
-  y18n@5.0.8: {}
+  y18n@5.0.8:
+    optional: true
 
   yallist@4.0.0: {}
 
@@ -8632,7 +8696,8 @@ snapshots:
 
   yargs-parser@20.2.9: {}
 
-  yargs-parser@21.1.1: {}
+  yargs-parser@21.1.1:
+    optional: true
 
   yargs@17.7.2:
     dependencies:
@@ -8643,6 +8708,7 @@ snapshots:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 21.1.1
+    optional: true
 
   yauzl@2.10.0:
     dependencies:
