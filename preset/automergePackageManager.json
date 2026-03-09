@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge packageManager field updates (pnpm, etc.)",
+  "packageRules": [
+    {
+      "description": "Automerge pnpm (packageManager) patch and minor updates",
+      "matchPackageNames": ["pnpm", "yarn", "bun"],
+      "matchDepTypes": ["packageManager"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
+    }
+  ]
+}

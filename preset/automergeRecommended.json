@@ -4,6 +4,7 @@
     "github>Inthememory/renovate-config//preset/automergeCI",
     "github>Inthememory/renovate-config//preset/automergeNPM",
     "github>Inthememory/renovate-config//preset/automergeNPMDevDependencies",
+    "github>Inthememory/renovate-config//preset/automergePackageManager",
     "github>Inthememory/renovate-config//preset/automergeTypesMinor",
     "github>Inthememory/renovate-config//preset/automergeVersionManagers"
   ]
