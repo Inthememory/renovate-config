@@ -14,9 +14,6 @@ importers:
       '@inthememory/tsconfig':
         specifier: 1.0.0-alpha.2
         version: 1.0.0-alpha.2(typescript@5.9.3)
-      npm-run-all2:
-        specifier: 8.0.4
-        version: 8.0.4
       renovate:
         specifier: 43.59.4
         version: 43.59.4(typanion@3.14.0)
@@ -495,12 +492,18 @@ packages:
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0
+    peerDependenciesMeta:
+      '@commitlint/cli':
+        optional: true
 
   '@inthememory/tsconfig@1.0.0-alpha.2':
     resolution: {integrity: sha512-7JYoh80ajxfrNXQINZ478ceDjK8W5FVcsHuSaYjd7bHHLnU+NBkMdJbHc0QMgUNB86++YreOO8cyfdZ0jj5yMQ==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.0-alpha.2/b71718f51249aa7347c9bf600959ab2c347ff1cc}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       typescript: '>=5.x'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -2342,10 +2345,6 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  isexe@3.1.5:
-    resolution: {integrity: sha512-6B3tLtFqtQS4ekarvLVMZ+X+VlvQekbe4taUkf/rhVO3d/h0M2rfARm/pXLcPEsjjMsFgrFgSrhQIxcSVrBz8w==}
-    engines: {node: '>=18'}
-
   isexe@4.0.0:
     resolution: {integrity: sha512-FFUtZMpoZ8RqHS3XeXEmHWLA4thH+ZxCv2lOiPIn1Xc7CxrqhWzNSDzD+/chS/zbYezmiwWLdQC09JdQKmthOw==}
     engines: {node: '>=20'}
@@ -2382,10 +2381,6 @@ packages:
 
   json-parse-even-better-errors@2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==}
-
-  json-parse-even-better-errors@4.0.0:
-    resolution: {integrity: sha512-lR4MXjGNgkJc7tkQ97kb2nuEMnNCyU//XYVH0MKTGcXEiSudQ5MKGKen3C5QubYy0vmq+JGitUg92uuywGEwIA==}
-    engines: {node: ^18.17.0 || >=20.5.0}
 
   json-schema-traverse@1.0.0:
     resolution: {integrity: sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==}
@@ -2566,10 +2561,6 @@ packages:
 
   mdurl@2.0.0:
     resolution: {integrity: sha512-Lf+9+2r+Tdp5wXDXC4PcIBjTDtq4UKjCPMQhKIuzpJNW0b96kVqSwW0bT7FhRSfmAiFYgP+SCRvdrDozfh0U5w==}
-
-  memorystream@0.3.1:
-    resolution: {integrity: sha512-S3UwM3yj5mtUSEfP41UZmt/0SCoVYUcU1rkXv+BQ5Ig8ndL4sPoJNBUJERafdPb5jjHJGuMgytgKvKIf58XNBw==}
-    engines: {node: '>= 0.10.0'}
 
   meow@12.1.1:
     resolution: {integrity: sha512-BhXM0Au22RwUneMPwSCnyhTOizdWoIEPU9sp0Aqa1PnDMR5Wv2FGXYDjuzJEIX+Eo2Rb8xuYe5jrnm5QowQFkw==}
@@ -2861,15 +2852,6 @@ packages:
     resolution: {integrity: sha512-JYc0DPlpGWB40kH5g07gGTrYuMqV653k3uBKY6uITPWds3M0ov3GaWGp9lbE3Bzngx8+XkfzgvASb9vk9JDFXQ==}
     engines: {node: '>=14.16'}
 
-  npm-normalize-package-bin@4.0.0:
-    resolution: {integrity: sha512-TZKxPvItzai9kN9H/TkmCtx/ZN/hvr3vUycjlfmH0ootY9yFBzNOpiXAdIn1Iteqsvk4lQn6B5PTrt+n6h8k/w==}
-    engines: {node: ^18.17.0 || >=20.5.0}
-
-  npm-run-all2@8.0.4:
-    resolution: {integrity: sha512-wdbB5My48XKp2ZfJUlhnLVihzeuA1hgBnqB2J9ahV77wLS+/YAJAlN8I+X3DIFIPZ3m5L7nplmlbhNiFDmXRDA==}
-    engines: {node: ^20.5.0 || >=22.0.0, npm: '>= 10'}
-    hasBin: true
-
   npm-run-path@5.3.0:
     resolution: {integrity: sha512-ppwTtiJZq0O/ai0z7yfudtBpWIoxM8yE6nHi1X47eFR2EWORqfbu6CnPlNsjeN683eT0qG6H/Pyf9fCcvjnnnQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -3024,11 +3006,6 @@ packages:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
-  pidtree@0.6.0:
-    resolution: {integrity: sha512-eG2dWTVw5bzqGRztnHExczNxt5VGsE6OwTeCG3fdUf9KBsZzO3R5OIIIzWR+iZA0NtZ+RDVdaoE2dK1cn6jH4g==}
-    engines: {node: '>=0.10'}
-    hasBin: true
-
   possible-typed-array-names@1.1.0:
     resolution: {integrity: sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==}
     engines: {node: '>= 0.4'}
@@ -3094,10 +3071,6 @@ packages:
 
   re2@1.23.3:
     resolution: {integrity: sha512-5jh686rmj/8dYpBo72XYgwzgG8Y9HNDATYZ1x01gqZ6FvXVUP33VZ0+6GLCeavaNywz3OkXBU8iNX7LjiuisPg==}
-
-  read-package-json-fast@4.0.0:
-    resolution: {integrity: sha512-qpt8EwugBWDw2cgE2W+/3oxC+KTez2uSVR8JU9Q36TXPAGCaozfQUs59v4j4GFpWTaw0i6hAZSvOmu1J0uOEUg==}
-    engines: {node: ^18.17.0 || >=20.5.0}
 
   read-pkg-up@7.0.1:
     resolution: {integrity: sha512-zK0TB7Xd6JpCLmlLmufqykGE+/TlOePD6qKClNW7hHDKFh/J7/7gCWGR7joEQEW1bKq3a3yUZSObOoWLFQ4ohg==}
@@ -3268,10 +3241,6 @@ packages:
   shebang-regex@3.0.0:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
-
-  shell-quote@1.8.3:
-    resolution: {integrity: sha512-ObmnIF4hXNg1BqhnHmgbDETF8dLPCggZWBjkQfhZpbszZnYur5DUljTcCHii5LC3J5E0yeO/1LIMyH+UvHQgyw==}
-    engines: {node: '>= 0.4'}
 
   shlex@3.0.0:
     resolution: {integrity: sha512-jHPXQQk9d/QXCvJuLPYMOYWez3c43sORAgcIEoV7bFv5AJSJRAOyw5lQO12PMfd385qiLRCaDt7OtEzgrIGZUA==}
@@ -3708,11 +3677,6 @@ packages:
   which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
     engines: {node: '>= 8'}
-    hasBin: true
-
-  which@5.0.0:
-    resolution: {integrity: sha512-JEdGzHwwkrbWoGOlIHqQ5gtprKGOenpDHpxE9zVR1bWbOtYRyPPHMe9FaP6x61CmNaTThSkb0DAJte5jD+DmzQ==}
-    engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
 
   which@6.0.1:
@@ -4620,6 +4584,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
       - typescript
+    optional: true
 
   '@commitlint/config-conventional@20.4.3':
     dependencies:
@@ -4630,6 +4595,7 @@ snapshots:
     dependencies:
       '@commitlint/types': 20.4.3
       ajv: 8.18.0
+    optional: true
 
   '@commitlint/ensure@20.4.3':
     dependencies:
@@ -4639,18 +4605,22 @@ snapshots:
       lodash.snakecase: 4.1.1
       lodash.startcase: 4.4.0
       lodash.upperfirst: 4.3.1
+    optional: true
 
-  '@commitlint/execute-rule@20.0.0': {}
+  '@commitlint/execute-rule@20.0.0':
+    optional: true
 
   '@commitlint/format@20.4.3':
     dependencies:
       '@commitlint/types': 20.4.3
       picocolors: 1.1.1
+    optional: true
 
   '@commitlint/is-ignored@20.4.3':
     dependencies:
       '@commitlint/types': 20.4.3
       semver: 7.7.4
+    optional: true
 
   '@commitlint/lint@20.4.3':
     dependencies:
@@ -4658,6 +4628,7 @@ snapshots:
       '@commitlint/parse': 20.4.3
       '@commitlint/rules': 20.4.3
       '@commitlint/types': 20.4.3
+    optional: true
 
   '@commitlint/load@20.4.3(@types/node@25.3.5)(typescript@5.9.3)':
     dependencies:
@@ -4673,14 +4644,17 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
       - typescript
+    optional: true
 
-  '@commitlint/message@20.4.3': {}
+  '@commitlint/message@20.4.3':
+    optional: true
 
   '@commitlint/parse@20.4.3':
     dependencies:
       '@commitlint/types': 20.4.3
       conventional-changelog-angular: 8.3.0
       conventional-commits-parser: 6.3.0
+    optional: true
 
   '@commitlint/read@20.4.3':
     dependencies:
@@ -4689,6 +4663,7 @@ snapshots:
       git-raw-commits: 4.0.0
       minimist: 1.2.8
       tinyexec: 1.0.2
+    optional: true
 
   '@commitlint/resolve-extends@20.4.3':
     dependencies:
@@ -4698,6 +4673,7 @@ snapshots:
       import-meta-resolve: 4.2.0
       lodash.mergewith: 4.6.2
       resolve-from: 5.0.0
+    optional: true
 
   '@commitlint/rules@20.4.3':
     dependencies:
@@ -4705,12 +4681,15 @@ snapshots:
       '@commitlint/message': 20.4.3
       '@commitlint/to-lines': 20.0.0
       '@commitlint/types': 20.4.3
+    optional: true
 
-  '@commitlint/to-lines@20.0.0': {}
+  '@commitlint/to-lines@20.0.0':
+    optional: true
 
   '@commitlint/top-level@20.4.3':
     dependencies:
       escalade: 3.2.0
+    optional: true
 
   '@commitlint/types@20.4.3':
     dependencies:
@@ -4804,12 +4783,13 @@ snapshots:
 
   '@inthememory/commitlint-config@1.0.0-alpha.2(@commitlint/cli@20.4.3(@types/node@25.3.5)(typescript@5.9.3))':
     dependencies:
-      '@commitlint/cli': 20.4.3(@types/node@25.3.5)(typescript@5.9.3)
       '@commitlint/config-conventional': 20.4.3
       '@commitlint/types': 20.4.3
+    optionalDependencies:
+      '@commitlint/cli': 20.4.3(@types/node@25.3.5)(typescript@5.9.3)
 
   '@inthememory/tsconfig@1.0.0-alpha.2(typescript@5.9.3)':
-    dependencies:
+    optionalDependencies:
       typescript: 5.9.3
 
   '@isaacs/cliui@8.0.2':
@@ -5817,6 +5797,7 @@ snapshots:
       fast-uri: 3.1.0
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
+    optional: true
 
   ansi-regex@5.0.1: {}
 
@@ -5991,7 +5972,8 @@ snapshots:
       call-bind-apply-helpers: 1.0.2
       get-intrinsic: 1.3.0
 
-  callsites@3.1.0: {}
+  callsites@3.1.0:
+    optional: true
 
   camelcase-keys@6.2.2:
     dependencies:
@@ -6037,6 +6019,7 @@ snapshots:
       string-width: 4.2.3
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
+    optional: true
 
   clone-response@1.0.3:
     dependencies:
@@ -6063,6 +6046,7 @@ snapshots:
   conventional-changelog-angular@8.3.0:
     dependencies:
       compare-func: 2.0.0
+    optional: true
 
   conventional-changelog-conventionalcommits@9.3.0:
     dependencies:
@@ -6090,6 +6074,7 @@ snapshots:
       cosmiconfig: 9.0.1(typescript@5.9.3)
       jiti: 2.6.1
       typescript: 5.9.3
+    optional: true
 
   cosmiconfig@9.0.1(typescript@5.9.3):
     dependencies:
@@ -6099,6 +6084,7 @@ snapshots:
       parse-json: 5.2.0
     optionalDependencies:
       typescript: 5.9.3
+    optional: true
 
   croner@10.0.1: {}
 
@@ -6122,7 +6108,8 @@ snapshots:
 
   dargs@7.0.0: {}
 
-  dargs@8.1.0: {}
+  dargs@8.1.0:
+    optional: true
 
   data-uri-to-buffer@4.0.1: {}
 
@@ -6256,7 +6243,8 @@ snapshots:
 
   entities@4.5.0: {}
 
-  env-paths@2.2.1: {}
+  env-paths@2.2.1:
+    optional: true
 
   error-ex@1.3.4:
     dependencies:
@@ -6305,7 +6293,8 @@ snapshots:
       '@esbuild/win32-ia32': 0.27.3
       '@esbuild/win32-x64': 0.27.3
 
-  escalade@3.2.0: {}
+  escalade@3.2.0:
+    optional: true
 
   escape-string-regexp@4.0.0: {}
 
@@ -6365,7 +6354,8 @@ snapshots:
       merge2: 1.4.1
       micromatch: 4.0.8
 
-  fast-uri@3.1.0: {}
+  fast-uri@3.1.0:
+    optional: true
 
   fast-xml-builder@1.0.0: {}
 
@@ -6488,7 +6478,8 @@ snapshots:
 
   generator-function@2.0.1: {}
 
-  get-caller-file@2.0.5: {}
+  get-caller-file@2.0.5:
+    optional: true
 
   get-intrinsic@1.3.0:
     dependencies:
@@ -6532,6 +6523,7 @@ snapshots:
       dargs: 8.1.0
       meow: 12.1.1
       split2: 4.2.0
+    optional: true
 
   git-up@8.1.1:
     dependencies:
@@ -6587,6 +6579,7 @@ snapshots:
   global-directory@4.0.1:
     dependencies:
       ini: 4.1.1
+    optional: true
 
   globalthis@1.0.4:
     dependencies:
@@ -6729,6 +6722,7 @@ snapshots:
     dependencies:
       parent-module: 1.0.1
       resolve-from: 4.0.0
+    optional: true
 
   import-in-the-middle@2.0.6:
     dependencies:
@@ -6737,7 +6731,8 @@ snapshots:
       cjs-module-lexer: 2.2.0
       module-details-from-path: 1.0.4
 
-  import-meta-resolve@4.2.0: {}
+  import-meta-resolve@4.2.0:
+    optional: true
 
   imurmurhash@0.1.4: {}
 
@@ -6754,7 +6749,8 @@ snapshots:
   ini@1.3.8:
     optional: true
 
-  ini@4.1.1: {}
+  ini@4.1.1:
+    optional: true
 
   ini@6.0.0: {}
 
@@ -6830,8 +6826,6 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  isexe@3.1.5: {}
-
   isexe@4.0.0:
     optional: true
 
@@ -6841,7 +6835,8 @@ snapshots:
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
-  jiti@2.6.1: {}
+  jiti@2.6.1:
+    optional: true
 
   js-md4@0.3.2: {}
 
@@ -6868,9 +6863,8 @@ snapshots:
 
   json-parse-even-better-errors@2.3.1: {}
 
-  json-parse-even-better-errors@4.0.0: {}
-
-  json-schema-traverse@1.0.0: {}
+  json-schema-traverse@1.0.0:
+    optional: true
 
   json-stringify-pretty-compact@4.0.0: {}
 
@@ -6933,17 +6927,23 @@ snapshots:
     dependencies:
       p-locate: 6.0.0
 
-  lodash.camelcase@4.3.0: {}
+  lodash.camelcase@4.3.0:
+    optional: true
 
-  lodash.kebabcase@4.1.1: {}
+  lodash.kebabcase@4.1.1:
+    optional: true
 
-  lodash.mergewith@4.6.2: {}
+  lodash.mergewith@4.6.2:
+    optional: true
 
-  lodash.snakecase@4.1.1: {}
+  lodash.snakecase@4.1.1:
+    optional: true
 
-  lodash.startcase@4.4.0: {}
+  lodash.startcase@4.4.0:
+    optional: true
 
-  lodash.upperfirst@4.3.1: {}
+  lodash.upperfirst@4.3.1:
+    optional: true
 
   lodash@4.17.23: {}
 
@@ -7111,9 +7111,8 @@ snapshots:
 
   mdurl@2.0.0: {}
 
-  memorystream@0.3.1: {}
-
-  meow@12.1.1: {}
+  meow@12.1.1:
+    optional: true
 
   meow@13.2.0: {}
 
@@ -7525,19 +7524,6 @@ snapshots:
 
   normalize-url@8.1.1: {}
 
-  npm-normalize-package-bin@4.0.0: {}
-
-  npm-run-all2@8.0.4:
-    dependencies:
-      ansi-styles: 6.2.3
-      cross-spawn: 7.0.6
-      memorystream: 0.3.1
-      picomatch: 4.0.3
-      pidtree: 0.6.0
-      read-package-json-fast: 4.0.0
-      shell-quote: 1.8.3
-      which: 5.0.0
-
   npm-run-path@5.3.0:
     dependencies:
       path-key: 4.0.0
@@ -7613,6 +7599,7 @@ snapshots:
   parent-module@1.0.1:
     dependencies:
       callsites: 3.1.0
+    optional: true
 
   parse-json@5.2.0:
     dependencies:
@@ -7664,8 +7651,6 @@ snapshots:
   picomatch@2.3.1: {}
 
   picomatch@4.0.3: {}
-
-  pidtree@0.6.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -7750,11 +7735,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
     optional: true
-
-  read-package-json-fast@4.0.0:
-    dependencies:
-      json-parse-even-better-errors: 4.0.0
-      npm-normalize-package-bin: 4.0.0
 
   read-pkg-up@7.0.1:
     dependencies:
@@ -7969,9 +7949,11 @@ snapshots:
       - supports-color
       - typanion
 
-  require-directory@2.1.1: {}
+  require-directory@2.1.1:
+    optional: true
 
-  require-from-string@2.0.2: {}
+  require-from-string@2.0.2:
+    optional: true
 
   require-in-the-middle@8.0.1:
     dependencies:
@@ -7982,9 +7964,11 @@ snapshots:
 
   resolve-alpn@1.2.1: {}
 
-  resolve-from@4.0.0: {}
+  resolve-from@4.0.0:
+    optional: true
 
-  resolve-from@5.0.0: {}
+  resolve-from@5.0.0:
+    optional: true
 
   resolve@1.22.11:
     dependencies:
@@ -8111,8 +8095,6 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
-  shell-quote@1.8.3: {}
-
   shlex@3.0.0: {}
 
   side-channel-list@1.0.0:
@@ -8218,7 +8200,8 @@ snapshots:
     dependencies:
       readable-stream: 3.6.2
 
-  split2@4.2.0: {}
+  split2@4.2.0:
+    optional: true
 
   sprintf-js@1.0.3: {}
 
@@ -8554,10 +8537,6 @@ snapshots:
     dependencies:
       isexe: 2.0.0
 
-  which@5.0.0:
-    dependencies:
-      isexe: 3.1.5
-
   which@6.0.1:
     dependencies:
       isexe: 4.0.0
@@ -8607,7 +8586,8 @@ snapshots:
 
   xtend@4.0.2: {}
 
-  y18n@5.0.8: {}
+  y18n@5.0.8:
+    optional: true
 
   yallist@4.0.0: {}
 
@@ -8623,7 +8603,8 @@ snapshots:
 
   yargs-parser@20.2.9: {}
 
-  yargs-parser@21.1.1: {}
+  yargs-parser@21.1.1:
+    optional: true
 
   yargs@17.7.2:
     dependencies:
@@ -8634,6 +8615,7 @@ snapshots:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 21.1.1
+    optional: true
 
   yauzl@2.10.0:
     dependencies:
