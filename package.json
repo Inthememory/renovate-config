@@ -70,7 +70,7 @@
     "@inthememory/tsconfig": "1.0.0-alpha.3",
     "renovate": "43.65.0",
     "typescript": "5.9.3",
-    "vitest": "4.0.18"
+    "vitest": "4.1.0"
   },
   "packageManager": "pnpm@10.32.1",
   "engines": {
