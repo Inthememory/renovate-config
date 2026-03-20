@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@inthememory/commitlint-config':
-        specifier: 1.0.1
-        version: 1.0.1(@commitlint/cli@20.5.0(@types/node@25.5.0)(conventional-commits-parser@6.3.0)(typescript@5.9.3))
+        specifier: 1.0.2
+        version: 1.0.2(@commitlint/cli@20.5.0(@types/node@25.5.0)(conventional-commits-parser@6.3.0)(typescript@5.9.3))
       '@inthememory/tsconfig':
         specifier: 1.0.1
         version: 1.0.1(typescript@5.9.3)
@@ -352,8 +352,8 @@ packages:
     resolution: {integrity: sha512-7bQW+gkKa2kKZPeJf6+c6gFK9ARxQfn+FKy9ScTBppyKRWH2KzsmweXUoklqeEiHiNVWaeP5csIdsNq6w7QhzA==}
     engines: {node: '>=12.20'}
 
-  '@inthememory/commitlint-config@1.0.1':
-    resolution: {integrity: sha512-S+//gUCaX2LgPCL1/RiT1X99LzCOQRpq91ycY+GMH/IdqPBPg0GzSBuqU+Ir3RHrulj5+/KIJk9b3iDEiuiPoQ==, tarball: https://npm.pkg.github.com/download/@inthememory/commitlint-config/1.0.1/75234688bb4dec74f6a4c8df990c4029486b529a}
+  '@inthememory/commitlint-config@1.0.2':
+    resolution: {integrity: sha512-/KrDdPcoajSLNMSqNcm/3QjAsnbwKRnd9XpEJbt3+MkibmR2ndSHo/y5cwQwTocggL9iLy8vv/KlA0kDIQQn9A==, tarball: https://npm.pkg.github.com/download/@inthememory/commitlint-config/1.0.2/1284a49d70273cbd9ccbf04f7262bec9a29805ce}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0
@@ -4542,7 +4542,7 @@ snapshots:
 
   '@gwhitney/detect-indent@7.0.1': {}
 
-  '@inthememory/commitlint-config@1.0.1(@commitlint/cli@20.5.0(@types/node@25.5.0)(conventional-commits-parser@6.3.0)(typescript@5.9.3))':
+  '@inthememory/commitlint-config@1.0.2(@commitlint/cli@20.5.0(@types/node@25.5.0)(conventional-commits-parser@6.3.0)(typescript@5.9.3))':
     dependencies:
       '@commitlint/cli': 20.5.0(@types/node@25.5.0)(conventional-commits-parser@6.3.0)(typescript@5.9.3)
       '@commitlint/config-conventional': 20.5.0
