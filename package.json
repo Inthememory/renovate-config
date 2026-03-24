@@ -68,7 +68,7 @@
   "devDependencies": {
     "@inthememory/commitlint-config": "1.0.3",
     "@inthememory/tsconfig": "1.0.2",
-    "renovate": "43.87.1",
+    "renovate": "43.89.3",
     "typescript": "5.9.3",
     "vitest": "4.1.1"
   },
