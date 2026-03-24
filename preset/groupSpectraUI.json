@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Group all packages whose source URL is the Inthememory/spectra-ui GitHub monorepo.",
+  "packageRules": [
+    {
+      "matchSourceUrls": [
+        "https://github.com/Inthememory/spectra-ui/**"
+      ],
+      "groupName": "spectra-ui monorepo"
+    }
+  ]
+}

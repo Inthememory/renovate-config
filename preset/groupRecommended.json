@@ -1,4 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>w5s/renovate-config//preset/groupRecommended"]
+  "extends": [
+    "github>w5s/renovate-config//preset/groupRecommended",
+    "github>Inthememory/renovate-config//preset/groupSpectraUI"
+  ]
 }
