@@ -10,11 +10,15 @@
     "helpers:disableTypesNodeMajor",
     "helpers:pinGitHubActionDigests",
     "docker:pinDigests",
+    "mergeConfidence:age-confidence-badges",
+    "replacements:all",
+    "workarounds:all",
+    "helpers:githubDigestChangelogs",
+    "helpers:goXPackagesChangelogLink",
+    "helpers:goXPackagesNameLink",
     "github>Inthememory/renovate-config//preset/commit",
     "github>Inthememory/renovate-config//preset/schedule",
-    "github>Inthememory/renovate-config//preset/ignore",
-    "replacements:all",
-    "workarounds:all"
+    "github>Inthememory/renovate-config//preset/ignore"
   ],
   "forkProcessing": "disabled",
   "ignoreUnstable": true,
