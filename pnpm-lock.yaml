@@ -12,8 +12,8 @@ importers:
         specifier: 1.0.4
         version: 1.0.4(@commitlint/cli@20.5.0(@types/node@25.5.0)(conventional-commits-parser@6.4.0)(typescript@6.0.2))
       '@inthememory/tsconfig':
-        specifier: 1.0.4
-        version: 1.0.4(typescript@6.0.2)
+        specifier: 1.0.5
+        version: 1.0.5(typescript@6.0.2)
       renovate:
         specifier: 43.99.1
         version: 43.99.1(typanion@3.14.0)
@@ -358,8 +358,8 @@ packages:
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0
 
-  '@inthememory/tsconfig@1.0.4':
-    resolution: {integrity: sha512-RaJ7Xtxdz5mLMsXdZvaanjo8knYTnDVZTijy1L7wzi/93G8Kwl1up/9SLhTdnbhWSZzVhfjFANURia82AChoTQ==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.4/8f450f646e8a995bbf5c9bea896197b68c64d6fc}
+  '@inthememory/tsconfig@1.0.5':
+    resolution: {integrity: sha512-tCf8Sp0+4vULF7stg/Bpn4cl95jEr9bOqaNBzR98bRmDjphrIpXd5LVAWDje+8JV8W6MxxHrZYl6FC5QhehpOA==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.5/5817c1f7e38b88cd4fbb3f7f06d1ae9058baaa68}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       typescript: '>=5.x'
@@ -4450,7 +4450,7 @@ snapshots:
       '@commitlint/config-conventional': 20.5.0
       '@commitlint/types': 20.5.0
 
-  '@inthememory/tsconfig@1.0.4(typescript@6.0.2)':
+  '@inthememory/tsconfig@1.0.5(typescript@6.0.2)':
     dependencies:
       typescript: 6.0.2
 
