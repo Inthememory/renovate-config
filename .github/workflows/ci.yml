@@ -18,5 +18,5 @@ env:
 
 jobs:
   ci-validate:
-    uses: Inthememory/project-config/.github/workflows/ci.yml@c01addda60a8b068426756917bd89fda28e6b61a # main
+    uses: Inthememory/project-config/.github/workflows/ci.yml@9abb4341a135fcea7608ce35f03f7ed4a7bbb61e # main
     secrets: inherit
