@@ -17,6 +17,7 @@
     "helpers:goXPackagesChangelogLink",
     "helpers:goXPackagesNameLink",
     "github>Inthememory/renovate-config//preset/commit",
+    "github>Inthememory/renovate-config//preset/security",
     "github>Inthememory/renovate-config//preset/schedule",
     "github>Inthememory/renovate-config//preset/ignore"
   ],

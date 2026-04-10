@@ -31,11 +31,15 @@ exports[`Configuration snapshot > base.json 1`] = `
     "helpers:goXPackagesChangelogLink",
     "helpers:goXPackagesNameLink",
     "github>Inthememory/renovate-config//preset/commit",
+    "github>Inthememory/renovate-config//preset/security",
     "github>Inthememory/renovate-config//preset/schedule",
     "github>Inthememory/renovate-config//preset/ignore",
   ],
   "forkProcessing": "disabled",
   "ignoreUnstable": true,
+  "labels": [
+    "dependencies",
+  ],
   "lockFileMaintenance": {
     "automerge": true,
     "enabled": true,
