@@ -5,8 +5,7 @@
     {
       "description": "Security updates",
       "matchUpdateTypes": ["security"],
-      "labels": ["security"],
-      "automerge": true
+      "labels": ["security"]
     }
   ]
 }
