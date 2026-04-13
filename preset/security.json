@@ -3,12 +3,5 @@
   "osvVulnerabilityAlerts": true,
   "vulnerabilityAlerts": {
     "labels": ["security"]
-  },
-  "packageRules": [
-    {
-      "description": "Label vulnerability remediation updates",
-      "matchJsonata": ["$exists(vulnerabilityFixVersion)"],
-      "labels": ["security"]
-    }
-  ]
+  }
 }
