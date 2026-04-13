@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "matchSourceUrls": [
-        "https://github.com/Inthememory/spectra-ui/**"
+        "https://github.com/Inthememory/spectra-ui"
       ],
       "groupName": "spectra-ui monorepo"
     }
