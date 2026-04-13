@@ -2,6 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "osvVulnerabilityAlerts": true,
   "vulnerabilityAlerts": {
-    "labels": ["security"]
+    "labels": ["dependencies", "security"]
   }
 }
