@@ -1,10 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "labels": ["security"]
+  },
   "packageRules": [
     {
-      "description": "Security updates",
-      "matchUpdateTypes": ["security"],
+      "description": "Label vulnerability remediation updates",
+      "matchJsonata": ["$exists(vulnerabilityFixVersion)"],
       "labels": ["security"]
     }
   ]
