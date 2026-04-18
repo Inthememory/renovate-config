@@ -9,5 +9,5 @@ permissions:
   packages: read   # install deps from GitHub Packages (ci-setup, ci-install)
 jobs:
   pr-validate:
-    uses: Inthememory/project-config/.github/workflows/pr.yml@aeda95b425d0cae06568b9758bacb830853d87f4 # main
+    uses: Inthememory/project-config/.github/workflows/pr.yml@ea22dde0ee9a3d32686f7927b6d3bfd745551dbb # main
     secrets: inherit
