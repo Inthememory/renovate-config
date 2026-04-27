@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "matchManagers": ["nodenv", "nvm", "asdf", "ruby-version"],
-      "matchUpdateTypes": ["patch"],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     },
     {
