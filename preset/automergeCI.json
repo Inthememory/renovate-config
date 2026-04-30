@@ -5,6 +5,10 @@
     {
       "automerge": true,
       "matchCategories": ["ci"]
+    },
+    {
+      "automerge": true,
+      "matchManagers": ["github-actions"]
     }
   ]
 }
