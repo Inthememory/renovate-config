@@ -42,11 +42,14 @@ For a library repository (where dependencies should be unpinned), use this confi
 
 **Legacy application** (unmaintained or untested):
 
-For an unmaintained or untested repository include this configuration (will disable automerge and limit maximum PR):
+For an unmaintained or untested repository include the configuration (will disable automerge and limit maximum PR):
 
 ```json
 {
-  "extends": ["github>Inthememory/renovate-config:applicationLegacy"]
+  "extends": [
+    "github>Inthememory/renovate-config:application", // or library
+    "github>Inthememory/renovate-config:safeLegacy"
+  ]
 }
 ```
 

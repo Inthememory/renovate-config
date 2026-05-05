@@ -4,7 +4,7 @@
   "extends": [
     "github>Inthememory/renovate-config:base",
     "github>Inthememory/renovate-config//preset/groupRecommended",
-    ":pinDevDependencies"
-  ],
-  "prConcurrentLimit": 10
+    ":pinDevDependencies",
+    "github>Inthememory/renovate-config:safeLegacy"
+  ]
 }
