@@ -1,4 +1,0 @@
-{
-  "description": "Alias for :base",
-  "extends": ["github>Inthememory/renovate-config:base"]
-}

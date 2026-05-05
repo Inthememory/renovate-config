@@ -1,5 +1,79 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
+exports[`Configuration snapshot > _base.json 1`] = `
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "assigneesSampleSize": 1,
+  "automerge": false,
+  "dependencyDashboard": true,
+  "description": "Default base configuration for all Inthememory projects.",
+  "extends": [
+    ":ignoreModulesAndTests",
+    ":semanticPrefixFixDepsChoreOthers",
+    "helpers:disableTypesNodeMajor",
+    "helpers:pinGitHubActionDigests",
+    "docker:pinDigests",
+    "mergeConfidence:age-confidence-badges",
+    "replacements:all",
+    "workarounds:all",
+    "helpers:githubDigestChangelogs",
+    "helpers:goXPackagesChangelogLink",
+    "helpers:goXPackagesNameLink",
+    "github>Inthememory/renovate-config//preset/commit",
+    "github>Inthememory/renovate-config//preset/security",
+    "github>Inthememory/renovate-config//preset/schedule",
+    "github>Inthememory/renovate-config//preset/ignore",
+  ],
+  "forkProcessing": "disabled",
+  "ignoreUnstable": true,
+  "labels": [
+    "dependencies",
+  ],
+  "lockFileMaintenance": {
+    "automerge": true,
+    "enabled": true,
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "dependencies",
+      ],
+      "matchUpdateTypes": [
+        "major",
+      ],
+      "minimumReleaseAge": "7 days",
+    },
+    {
+      "matchDepTypes": [
+        "dependencies",
+      ],
+      "matchUpdateTypes": [
+        "minor",
+      ],
+      "minimumReleaseAge": "2 days",
+    },
+    {
+      "matchDepTypes": [
+        "dependencies",
+      ],
+      "matchUpdateTypes": [
+        "patch",
+      ],
+      "minimumReleaseAge": "2 days",
+    },
+  ],
+  "platformAutomerge": true,
+  "prConcurrentLimit": 3,
+  "prCreation": "immediate",
+  "prHourlyLimit": 0,
+  "rangeStrategy": "auto",
+  "rebaseWhen": "auto",
+  "separateMajorMinor": true,
+  "separateMinorPatch": true,
+  "updateNotScheduled": true,
+}
+`;
+
 exports[`Configuration snapshot > application.json 1`] = `
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",

@@ -1,10 +1,10 @@
 import { describe, test, expect } from 'vitest';
-import baseJSON from '../base.json';
+import baseJSON from '../_base.json';
 import applicationJSON from '../application.json';
 import libraryJSON from '../library.json';
 
 describe('Configuration snapshot', () => {
-  test('base.json', () => {
+  test('_base.json', () => {
     expect(baseJSON).toMatchSnapshot();
   });
   test('application.json', () => {
