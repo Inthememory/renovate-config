@@ -45,7 +45,7 @@
       "minimumReleaseAge": "2 days"
     }
   ],
-  "prConcurrentLimit": 20,
+  "prConcurrentLimit": 3,
   "prCreation": "immediate",
   "prHourlyLimit": 0,
   "rangeStrategy": "auto",
