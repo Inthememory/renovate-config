@@ -53,8 +53,5 @@
   "separateMajorMinor": true,
   "separateMinorPatch": true,
   "updateNotScheduled": true,
-  "platformAutomerge": true,
-  "toolSettings": {
-    "nodeMaxMemory": 4096
-  }
+  "platformAutomerge": true
 }
