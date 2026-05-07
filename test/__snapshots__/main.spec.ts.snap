@@ -70,9 +70,6 @@ exports[`Configuration snapshot > _base.json 1`] = `
   "rebaseWhen": "auto",
   "separateMajorMinor": true,
   "separateMinorPatch": true,
-  "toolSettings": {
-    "nodeMaxMemory": 4096,
-  },
   "updateNotScheduled": true,
 }
 `;
