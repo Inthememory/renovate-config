@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@inthememory/commitlint-config':
-        specifier: 1.1.0
-        version: 1.1.0(@commitlint/cli@20.5.3(@types/node@25.6.0)(conventional-commits-parser@6.4.0)(typescript@6.0.3))
+        specifier: 1.4.0
+        version: 1.4.0(@commitlint/cli@20.5.3(@types/node@25.6.0)(conventional-commits-parser@6.4.0)(typescript@6.0.3))
       '@inthememory/tsconfig':
         specifier: 1.0.5
         version: 1.0.5(typescript@6.0.3)
@@ -348,11 +348,11 @@ packages:
     resolution: {integrity: sha512-7bQW+gkKa2kKZPeJf6+c6gFK9ARxQfn+FKy9ScTBppyKRWH2KzsmweXUoklqeEiHiNVWaeP5csIdsNq6w7QhzA==}
     engines: {node: '>=12.20'}
 
-  '@inthememory/commitlint-config@1.1.0':
-    resolution: {integrity: sha512-lOsiPgn8oOcMbvGEyswL3WROi2jAJuNzWkbFom+voem2GUhGppqs5GLQyWBtU/OvrhMFkKrcr1hsBwV/CzRkcg==, tarball: https://npm.pkg.github.com/download/@inthememory/commitlint-config/1.1.0/97b786dc255bda931f4a79f41468bbf72ca6e3b5}
+  '@inthememory/commitlint-config@1.4.0':
+    resolution: {integrity: sha512-/2932wwgvACzPQHFL42mDkoZb9P4pWXkUqgrFpcgufZzJrFtAZkTRLdRSLigaHsg8oZmp7vY93pFbDYenBMR1g==, tarball: https://npm.pkg.github.com/download/@inthememory/commitlint-config/1.4.0/587a88cd6215c731749c3480dc61b79a054fc8b8}
     engines: {node: '>=20.0.0'}
     peerDependencies:
-      '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0
+      '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
 
   '@inthememory/tsconfig@1.0.5':
     resolution: {integrity: sha512-tCf8Sp0+4vULF7stg/Bpn4cl95jEr9bOqaNBzR98bRmDjphrIpXd5LVAWDje+8JV8W6MxxHrZYl6FC5QhehpOA==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.5/5817c1f7e38b88cd4fbb3f7f06d1ae9058baaa68}
@@ -4150,7 +4150,7 @@ snapshots:
 
   '@gwhitney/detect-indent@7.0.1': {}
 
-  '@inthememory/commitlint-config@1.1.0(@commitlint/cli@20.5.3(@types/node@25.6.0)(conventional-commits-parser@6.4.0)(typescript@6.0.3))':
+  '@inthememory/commitlint-config@1.4.0(@commitlint/cli@20.5.3(@types/node@25.6.0)(conventional-commits-parser@6.4.0)(typescript@6.0.3))':
     dependencies:
       '@commitlint/cli': 20.5.3(@types/node@25.6.0)(conventional-commits-parser@6.4.0)(typescript@6.0.3)
       '@commitlint/config-conventional': 20.5.3
