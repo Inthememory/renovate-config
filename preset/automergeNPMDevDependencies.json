@@ -3,21 +3,18 @@
   "description": "Automerge for NPM dev dependencies",
   "packageRules": [
     {
-      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "extends": ["packages:linters"],
       "automerge": true
     },
     {
-      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "extends": ["monorepo:commitlint"],
       "automerge": true
     },
     {
-      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "extends": ["monorepo:jest"],
@@ -25,21 +22,18 @@
       "automerge": true
     },
     {
-      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "extends": ["monorepo:vitest"],
       "automerge": true
     },
     {
-      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "matchPackageNames": ["npm-run-all", "npm-run-all2", "concurrently"],
       "automerge": true
     },
     {
-      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
