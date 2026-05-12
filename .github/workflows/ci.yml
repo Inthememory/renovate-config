@@ -17,6 +17,30 @@ env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
+  # TODO: the workflow are private and cannot be accessed by a public repository
+  # ci-validate:
+  #   uses: Inthememory/project-config/.github/workflows/ci.yml@0a15b12c959e7881b710f40f70ce2d4ecde98df4 # main
+  #   secrets: inherit
+
   ci-validate:
-    uses: Inthememory/project-config/.github/workflows/ci.yml@0a15b12c959e7881b710f40f70ce2d4ecde98df4 # main
-    secrets: inherit
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬇️ Checkout
+        uses: actions/checkout@v6
+      - name: 📌 Install pnpm
+        uses: pnpm/action-setup@v6
+      - name: ⚙️ Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: '.tool-versions'
+          cache: 'pnpm'
+
+      - name: 🔧 Configure npm for GitHub Packages
+        shell: bash
+        run: npm config set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" --location=user
+      # install dependencies
+      - name: 📦 Install dependencies
+        run: pnpm install
+      # validate
+      - name: ✅ Validate
+        run: pnpm run validate
