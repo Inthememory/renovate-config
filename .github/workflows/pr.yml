@@ -1,4 +1,5 @@
 name: 'Pull Request'
+
 on:
   pull_request:
     types: [opened, edited, synchronize, reopened, ready_for_review]
@@ -8,6 +9,13 @@ permissions:
   contents: read   # checkout
   packages: read   # install deps from GitHub Packages (ci-setup, ci-install)
 jobs:
+  # TODO: the workflow are private and cannot be accessed by a public repository
+  # pr-validate:
+  #   uses: Inthememory/project-config/.github/workflows/pr.yml@0a15b12c959e7881b710f40f70ce2d4ecde98df4 # main
+  #   secrets: inherit
+
   pr-validate:
-    uses: Inthememory/project-config/.github/workflows/pr.yml@0a15b12c959e7881b710f40f70ce2d4ecde98df4 # main
-    secrets: inherit
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "PR validation workflow is private and cannot be accessed by a public repository"
+
