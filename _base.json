@@ -16,6 +16,7 @@
     "helpers:githubDigestChangelogs",
     "helpers:goXPackagesChangelogLink",
     "helpers:goXPackagesNameLink",
+    "github>Inthememory/renovate-config//preset/labels",
     "github>Inthememory/renovate-config//preset/commit",
     "github>Inthememory/renovate-config//preset/security",
     "github>Inthememory/renovate-config//preset/schedule",
@@ -23,7 +24,6 @@
   ],
   "forkProcessing": "disabled",
   "ignoreUnstable": true,
-  "labels": ["dependencies"],
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true

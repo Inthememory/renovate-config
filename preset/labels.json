@@ -1,0 +1,51 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Labels for dependencies",
+  "labels": ["deps"],
+  "packageRules": [
+    {
+      "description": "Label update type patch",
+      "matchUpdateTypes": ["patch"],
+      "addLabels": ["deps:patch"]
+    },
+    {
+      "description": "Label update type minor",
+      "matchUpdateTypes": ["minor"],
+      "addLabels": ["deps:minor"]
+    },
+    {
+      "description": "Label update type major",
+      "matchUpdateTypes": ["major"],
+      "addLabels": ["deps:major"]
+    },
+    {
+
+      "description": "Label dependency type runtime",
+      "matchDepTypes": ["dependencies", "peerDependencies"],
+      "addLabels": ["deps:runtime"]
+    },
+    {
+      "description": "Label dependency type dev",
+      "matchDepTypes": ["devDependencies"],
+      "addLabels": ["deps:dev"]
+    },
+    {
+      "description": "CI dependencies",
+      "matchCategories": ["ci"],
+      "addLabels": ["deps:ci", "ci:full"]
+    },
+    {
+      "description": "CI dependencies",
+      "matchManagers": ["github-actions"],
+      "addLabels": ["deps:ci", "ci:full"]
+    },
+    {
+      "description": "Docker dependencies",
+      "matchManagers": ["dockerfile", "docker-compose"],
+      "addLabels": ["deps:infra", "ci:full"]
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "addLabels": ["deps:security"]
+  }
+}
