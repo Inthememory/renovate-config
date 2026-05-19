@@ -26,15 +26,11 @@
 
 ## Usage
 
-### Renovate Configuration
-
-`renovate.json`
-
-**1. Select repository archetype : Application / Library ?** :
+### 1. Select repository archetype : Application / Library ?
 
 For an application repository, the recommended strategy is to pin every dependencies, use this configuration:
 
-```json
+```json title="renovate.json"
 {
   "extends": ["github>Inthememory/renovate-config:application"]
 }
@@ -42,17 +38,17 @@ For an application repository, the recommended strategy is to pin every dependen
 
 For a library repository (only dev dependencies will be pinned), use this configuration:
 
-```json
+```json title="renovate.json"
 {
   "extends": ["github>Inthememory/renovate-config:library"]
 }
 ```
 
-**2. Legacy repository** (unmaintained or untested):
+### 2. Legacy repository** (unmaintained or untested)
 
 For an unmaintained or untested repository include the configuration (will disable automerge and limit maximum PR). Add a safe guard that avoids too many pull request and disables auto merge.
 
-```json
+```json title="renovate.json"
 {
   "extends": [
     //...
@@ -63,13 +59,13 @@ For an unmaintained or untested repository include the configuration (will disab
 
 Later, when the PR amount is lower and the application you should remove to `safeLegacy.json`
 
-**Step 3: Add assignees (important)**:
+### Step 3: Add assignees (important)
 
 Renovate will create many pull request. If something fails or a human action is required, there must be an owner to avoid a stock of waiting pull requests
 
 Assign a person
 
-```json
+```json title="renovate.json"
 {
   //...
   "assigneeSampleSize": 2, // Number of person to pick
@@ -79,14 +75,13 @@ Assign a person
 
 Assign a team
 
-```json
+```json title="renovate.json"
 {
   //...
   "assigneeSampleSize": 2, // Number of person to pick
   "assignees": ["team:maintainers"] // 'team:' + the github team slug
 }
 ```
-
 
 > [Read the documentation](https://docs.renovatebot.com/configuration-options/) to improve your configuration.
 
