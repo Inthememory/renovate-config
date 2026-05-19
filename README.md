@@ -30,9 +30,9 @@
 
 `renovate.json`
 
-**Application** (api, webapp, static website generator, etc):
+**1. Select repository archetype : Application / Library ?** :
 
-For a library repository (where dependencies should be unpinned), use this configuration:
+For an application repository, the recommended strategy is to pin every dependencies, use this configuration:
 
 ```json
 {
@@ -40,30 +40,53 @@ For a library repository (where dependencies should be unpinned), use this confi
 }
 ```
 
-**Legacy application** (unmaintained or untested):
-
-For an unmaintained or untested repository include the configuration (will disable automerge and limit maximum PR):
-
-```json
-{
-  "extends": [
-    "github>Inthememory/renovate-config:application", // or library
-    "github>Inthememory/renovate-config:safeLegacy"
-  ]
-}
-```
-
-Later, when the PR amount is lower and the application you can switch to `application.json`
-
-**Library**:
-
-For a library repository (where dependencies should be unpinned), use this configuration:
+For a library repository (only dev dependencies will be pinned), use this configuration:
 
 ```json
 {
   "extends": ["github>Inthememory/renovate-config:library"]
 }
 ```
+
+**2. Legacy repository** (unmaintained or untested):
+
+For an unmaintained or untested repository include the configuration (will disable automerge and limit maximum PR). Add a safe guard that avoids too many pull request and disables auto merge.
+
+```json
+{
+  "extends": [
+    //...
+    "github>Inthememory/renovate-config:safeLegacy"
+  ]
+}
+```
+
+Later, when the PR amount is lower and the application you should remove to `safeLegacy.json`
+
+**Step 3: Add assignees (important)**:
+
+Renovate will create many pull request. If something fails or a human action is required, there must be an owner to avoid a stock of waiting pull requests
+
+Assign a person
+
+```json
+{
+  //...
+  "assigneeSampleSize": 2, // Number of person to pick
+  "assignees": ["john_doe"] // the github username
+}
+```
+
+Assign a team
+
+```json
+{
+  //...
+  "assigneeSampleSize": 2, // Number of person to pick
+  "assignees": ["team:maintainers"] // 'team:' + the github team slug
+}
+```
+
 
 > [Read the documentation](https://docs.renovatebot.com/configuration-options/) to improve your configuration.
 
