@@ -33,9 +33,7 @@
     "prepare:githooks": "[ -n \"${CI:-}\" ] || git config core.hooksPath .githooks",
     "release": ":",
     "rescue": "git clean -fdx; pnpm install",
-    "test": "pnpm run \"/^test:.*/\"",
-    "test:renovate-config": "test/test.sh",
-    "test:unit": "vitest run",
+    "test": "vitest run",
     "validate": "pnpm run build && pnpm run lint && pnpm run test"
   },
   "commitlint": {
