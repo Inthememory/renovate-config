@@ -33,27 +33,18 @@ exports[`Configuration snapshot > _base.json 1`] = `
   },
   "packageRules": [
     {
-      "matchDepTypes": [
-        "dependencies",
-      ],
       "matchUpdateTypes": [
         "major",
       ],
       "minimumReleaseAge": "7 days",
     },
     {
-      "matchDepTypes": [
-        "dependencies",
-      ],
       "matchUpdateTypes": [
         "minor",
       ],
       "minimumReleaseAge": "2 days",
     },
     {
-      "matchDepTypes": [
-        "dependencies",
-      ],
       "matchUpdateTypes": [
         "patch",
       ],
