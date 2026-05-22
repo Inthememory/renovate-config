@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Limits for Mend Renovate hosted runners (3GB). Caps Node/pnpm memory, concurrency, and heavy lockfile work. pnpm monorepos should also set env.PNPM_MAX_WORKERS to 1 in renovate.json (Mend allows it; not validated in this repo's CI).",
+  "toolSettings": {
+    "nodeMaxMemory": 1024
+  },
+  "prConcurrentLimit": 5,
+  "branchConcurrentLimit": 2,
+  "prHourlyLimit": 3,
+  "commitHourlyLimit": 4,
+  "prCreation": "not-pending",
+  "separateMinorPatch": false
+}
