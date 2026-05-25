@@ -5,9 +5,5 @@
     "nodeMaxMemory": 1024
   },
   "prConcurrentLimit": 5,
-  "branchConcurrentLimit": 2,
-  "prHourlyLimit": 3,
-  "commitHourlyLimit": 4,
-  "prCreation": "not-pending",
-  "separateMinorPatch": false
+  "branchConcurrentLimit": 2
 }
