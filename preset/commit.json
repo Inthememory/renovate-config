@@ -3,6 +3,7 @@
   "description": "Commit conventional commit preset",
   "commitMessagePrefix": "chore(deps): ",
   "commitMessageAction": "upgrade",
+  "commitMessageLowerCase": "auto",
   "packageRules": [
     {
       "matchUpdateTypes": ["pin"],
