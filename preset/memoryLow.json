@@ -5,5 +5,5 @@
     "nodeMaxMemory": 1024
   },
   "prConcurrentLimit": 5,
-  "branchConcurrentLimit": 2
+  "branchConcurrentLimit": 5
 }
