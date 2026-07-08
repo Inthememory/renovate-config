@@ -68,7 +68,7 @@
     "@inthememory/tsconfig": "1.0.12",
     "renovate": "43.252.1",
     "typescript": "6.0.3",
-    "vitest": "4.1.9"
+    "vitest": "4.1.10"
   },
   "packageManager": "pnpm@11.8.0",
   "engines": {
