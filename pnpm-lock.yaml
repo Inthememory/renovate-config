@@ -15,8 +15,8 @@ importers:
         specifier: 1.0.12
         version: 1.0.12(typescript@6.0.3)
       renovate:
-        specifier: 43.252.6
-        version: 43.252.6(typanion@3.14.0)
+        specifier: 43.252.7
+        version: 43.252.7(typanion@3.14.0)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -2247,6 +2247,10 @@ packages:
     resolution: {integrity: sha512-tkAQEw8ysMzmkhgw8k+1U/iPhWNhykKnSk4Rd5zLoPJCuJaGRPo6YposrZgaxHKzDHdDWWZvE/Sk7hsL2X/CpQ==}
     engines: {node: '>=18'}
 
+  p-map@7.0.5:
+    resolution: {integrity: sha512-e8vJF4XdVkzqqSHguEMz41mQO1wKwxKm5ENrUJQUu9kLDCtn83cxbyHZcszr4QC5zEA7WffRRC4gsTecC7J9oA==}
+    engines: {node: '>=18'}
+
   p-queue@9.3.0:
     resolution: {integrity: sha512-7NED7xhQ74Ngp4JP/2e0VZHp7vSWfJfqeiR92jPgxsz6m0Se4P03YoTKa9dDXyZ3r6P616gUXttrB6nnHYKang==}
     engines: {node: '>=20'}
@@ -2383,8 +2387,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.252.6:
-    resolution: {integrity: sha512-9zUSKZjPaWB9HtYZKNOxt2Q6gk9885nAAE3OXBVFUx9nfXAJmHRY7CYTrj5KgH7Bvflr/jriQK3DfkTUPrOsNg==}
+  renovate@43.252.7:
+    resolution: {integrity: sha512-ypgBvdqWgmI1sUkhymI5oXq9YIusUcqTmRKhxiqFLdE5Lt8oc1nfR3aQqKIUe2OZyJBQaq8qR95Qrcmqt2uWUA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3701,7 +3705,7 @@ snapshots:
 
   '@renovatebot/detect-tools@4.0.8':
     dependencies:
-      fs-extra: 11.3.5
+      fs-extra: 11.3.6
       toml-eslint-parser: 1.0.3
       upath: 3.0.7
       zod: 4.4.3
@@ -5530,6 +5534,8 @@ snapshots:
 
   p-map@7.0.4: {}
 
+  p-map@7.0.5: {}
+
   p-queue@9.3.0:
     dependencies:
       eventemitter3: 5.0.4
@@ -5683,7 +5689,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.252.6(typanion@3.14.0):
+  renovate@43.252.7(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
@@ -5774,7 +5780,7 @@ snapshots:
       neotraverse: 0.6.18
       node-html-parser: 7.1.0
       p-all: 5.0.1
-      p-map: 7.0.4
+      p-map: 7.0.5
       p-queue: 9.3.0
       p-throttle: 8.1.0
       parse-link-header: 2.0.0
