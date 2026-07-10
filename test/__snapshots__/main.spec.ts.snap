@@ -31,26 +31,6 @@ exports[`Configuration snapshot > _base.json 1`] = `
     "automerge": true,
     "enabled": true,
   },
-  "packageRules": [
-    {
-      "matchUpdateTypes": [
-        "major",
-      ],
-      "minimumReleaseAge": "7 days",
-    },
-    {
-      "matchUpdateTypes": [
-        "minor",
-      ],
-      "minimumReleaseAge": "2 days",
-    },
-    {
-      "matchUpdateTypes": [
-        "patch",
-      ],
-      "minimumReleaseAge": "2 days",
-    },
-  ],
   "platformAutomerge": true,
   "prConcurrentLimit": 10,
   "prCreation": "immediate",
