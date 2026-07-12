@@ -3693,7 +3693,7 @@ snapshots:
 
   '@renovatebot/detect-tools@4.0.8':
     dependencies:
-      fs-extra: 11.3.6
+      fs-extra: 11.3.5
       toml-eslint-parser: 1.0.3
       upath: 3.0.7
       zod: 4.4.3
