@@ -15,8 +15,8 @@ importers:
         specifier: 1.0.14
         version: 1.0.14(typescript@6.0.3)
       renovate:
-        specifier: 43.262.4
-        version: 43.262.4(typanion@3.14.0)
+        specifier: 43.264.2
+        version: 43.264.2(typanion@3.14.0)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -1875,6 +1875,10 @@ packages:
     resolution: {integrity: sha512-RPimw/7aMdv2oqRrxKwvZXcPfwBrn/JZ2xYcY9Hus/6LaS3VOAKVWKWgNLCFSiOm1ESXinjsDlidVU7JlnCN2A==}
     engines: {node: 20 || >=22}
 
+  lru-cache@11.5.2:
+    resolution: {integrity: sha512-4pfM1Ff0x50o0tQwb5ucw/RzNyD0/YJME6IVcStalZuMWxdt3sR3huStTtxz4PUmvZfRguvDejasvQ2kifR11g==}
+    engines: {node: 20 || >=22}
+
   luxon@3.7.2:
     resolution: {integrity: sha512-vtEhXh/gNjI9Yg1u4jX/0YVPMvxzHuGgCm6tC5kZyb08yjGWGnqAjGJvcXbqQR2P3MyMEFnRbpcdFS6PBcLqew==}
     engines: {node: '>=12'}
@@ -2342,8 +2346,8 @@ packages:
     resolution: {integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==}
     engines: {node: '>=10'}
 
-  re2@1.25.1:
-    resolution: {integrity: sha512-/OUvD2RHfRIJGSdKB67chVmvhMHiXB9Xb0gSnQbN6fimFM/c50r/gmxrXFlMKbZKJ5s8SYNqLAojE7GvbqEl7g==}
+  re2@1.25.2:
+    resolution: {integrity: sha512-t75KS05wrPM0S7IRbM0l/WUYlHftJj3WAzQJAcSH8CrDP/jFYicZbMYTKohJ8w/3kFGwkY/G8/dGtC6CdShDlw==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
   read-yaml-file@2.1.0:
@@ -2365,8 +2369,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.262.4:
-    resolution: {integrity: sha512-02gw+PlHbUF/ThSDXu7Y53DuXf2DOpvOWHNulA6j0/sZgk6T4mLxDhUgCk6sLBPQzDMlvIWGOioCfe9+SC1F+A==}
+  renovate@43.264.2:
+    resolution: {integrity: sha512-jYTu6KWqECxpFB5gt9127HAIYI9M8r5RI5h3/IFUrgBHyiCxIdXb4HBrk1TsoRA99s75E6bJSiAEVTMgpOFMNw==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -5002,6 +5006,8 @@ snapshots:
 
   lru-cache@11.5.1: {}
 
+  lru-cache@11.5.2: {}
+
   luxon@3.7.2: {}
 
   magic-string@0.30.21:
@@ -5597,7 +5603,7 @@ snapshots:
 
   quick-lru@5.1.1: {}
 
-  re2@1.25.1:
+  re2@1.25.2:
     dependencies:
       install-artifact-from-github: 1.7.0
       nan: 2.28.0
@@ -5653,7 +5659,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.262.4(typanion@3.14.0):
+  renovate@43.264.2(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
@@ -5734,7 +5740,7 @@ snapshots:
       jsonata: 2.2.1
       jsonc-weaver: 0.2.4
       klona: 2.0.6
-      lru-cache: 11.5.1
+      lru-cache: 11.5.2
       luxon: 3.7.2
       markdown-it: 14.3.0
       markdown-table: 3.0.4
@@ -5774,7 +5780,7 @@ snapshots:
       zod: 4.4.3
     optionalDependencies:
       openpgp: 6.3.1
-      re2: 1.25.1
+      re2: 1.25.2
     transitivePeerDependencies:
       - '@node-rs/xxhash'
       - '@openpgp/web-stream-tools'
