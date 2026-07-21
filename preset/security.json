@@ -15,7 +15,7 @@
       "minimumReleaseAge": "2 days"
     },
     {
-      "matchPackageNames": ["/^@inthememory\\//"],
+      "matchPackageNames": ["/^@inthememory\\//", "/^@vusion\\//"],
       "minimumReleaseAge": "0 days"
     }
   ]
