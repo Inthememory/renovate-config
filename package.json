@@ -67,7 +67,7 @@
     "@inthememory/commitlint-config": "1.10.0",
     "@inthememory/tsconfig": "1.0.14",
     "renovate": "43.272.6",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "vitest": "4.1.10"
   },
   "packageManager": "pnpm@11.11.0",
