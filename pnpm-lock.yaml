@@ -15,8 +15,8 @@ importers:
         specifier: 1.0.18
         version: 1.0.18(typescript@7.0.2)
       renovate:
-        specifier: 43.272.9
-        version: 43.272.9(typanion@3.14.0)
+        specifier: 43.278.3
+        version: 43.278.3(typanion@3.14.0)
       typescript:
         specifier: 7.0.2
         version: 7.0.2
@@ -2485,8 +2485,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.272.9:
-    resolution: {integrity: sha512-Kxb4ZsEWwVq9BT1panfWYsnNbXlPoUG8kaft8TZbA4ykwiBqtL3kOYU214JX0VnIUhrMJmIrMbzx7hSoZ7HYKA==}
+  renovate@43.278.3:
+    resolution: {integrity: sha512-iBgJ84np1q3h4NS4oHrkaGpgNP5uIbpJXOl+OuDh2ztbVmCrkXK94ClJaDESwxpyx3SnDcWw0evs5bWuoSxQgw==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -5833,7 +5833,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.272.9(typanion@3.14.0):
+  renovate@43.278.3(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
@@ -5852,6 +5852,7 @@ snapshots:
       '@opentelemetry/instrumentation-bunyan': 0.65.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/instrumentation-http': 0.220.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/instrumentation-redis': 0.68.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/otlp-transformer': 0.220.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resource-detector-aws': 2.20.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resource-detector-azure': 0.28.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resource-detector-gcp': 0.55.0(@opentelemetry/api@1.9.1)
