@@ -64,7 +64,7 @@
     }
   },
   "devDependencies": {
-    "@inthememory/commitlint-config": "1.10.0",
+    "@inthememory/commitlint-config": "1.14.0",
     "@inthememory/tsconfig": "1.0.14",
     "renovate": "43.272.6",
     "typescript": "7.0.2",
