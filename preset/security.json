@@ -1,6 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "schedule": [],
+    "minimumReleaseAge": null
+  },
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
@@ -16,7 +20,7 @@
     },
     {
       "matchPackageNames": ["/^@inthememory\\//", "/^@vusion\\//"],
-      "minimumReleaseAge": "0 days"
+      "minimumReleaseAge": null
     }
   ]
 }
