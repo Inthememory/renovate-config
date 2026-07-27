@@ -3,7 +3,10 @@
   "osvVulnerabilityAlerts": true,
   "vulnerabilityAlerts": {
     "schedule": [],
-    "minimumReleaseAge": null
+    "minimumReleaseAge": null,
+    "automerge": true,
+    "automergeType": "pr",
+    "platformAutomerge": true
   },
   "packageRules": [
     {
@@ -21,6 +24,11 @@
     {
       "matchPackageNames": ["/^@inthememory\\//", "/^@vusion\\//"],
       "minimumReleaseAge": null
+    },
+    {
+      "description": "Do not automerge major security bumps without review",
+      "matchUpdateTypes": ["major"],
+      "vulnerabilityAlerts": { "automerge": false }
     }
   ]
 }
