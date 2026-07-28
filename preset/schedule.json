@@ -3,8 +3,7 @@
   "description": "Schedule out of work",
   "schedule": [
     "after 9pm every weekday",
-    "before 6am every weekday",
-    "every weekend"
+    "before 6am every weekday"
   ],
   "lockFileMaintenance": {
     "schedule": ["every weekend"]
