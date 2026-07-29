@@ -43,6 +43,9 @@ importers:
       '@inthememory/tsconfig':
         specifier: 1.0.18
         version: 1.0.18(typescript@6.0.3)
+      eslint:
+        specifier: 10.8.0
+        version: 10.8.0(jiti@2.6.1)
       renovate:
         specifier: 43.280.5
         version: 43.280.5(typanion@3.14.0)
