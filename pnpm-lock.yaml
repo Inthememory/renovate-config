@@ -41,8 +41,8 @@ importers:
         specifier: 1.0.0-alpha.3
         version: 1.0.0-alpha.3(@commitlint/cli@21.2.1(@types/node@26.1.1)(conventional-commits-parser@7.1.0)(typescript@6.0.3))(eslint@10.8.0(jiti@2.6.1))(lefthook@2.1.10)
       '@inthememory/tsconfig':
-        specifier: 1.0.18
-        version: 1.0.18(typescript@6.0.3)
+        specifier: 1.0.21
+        version: 1.0.21(typescript@6.0.3)
       eslint:
         specifier: 10.8.0
         version: 10.8.0(jiti@2.6.1)
@@ -1014,11 +1014,11 @@ packages:
       eslint: '>=8.0.0'
       lefthook: ^2.0.0
 
-  '@inthememory/tsconfig@1.0.18':
-    resolution: {integrity: sha512-d/XRaehO25ZyYAhI0g0/V7JEp7pTjCRmYLBn7F5AWKYstIdIQhLGALoCruy5wMIQ/xz+Tj754vXVXwd+I8bEYg==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.18/8a42166d8ded10e02c0bd8e32c10771a13f1adc3}
+  '@inthememory/tsconfig@1.0.21':
+    resolution: {integrity: sha512-1rZrESeliDV9uYleAd4+Grco12xIeLRaw7Vwn+hE0AmJESzP+S/ZWHfMG4/AjyhJc+WMfh5Nt1s4cA/QLb77TA==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.21/3d6da52a8ab16cf16610dae76fe7e592c52ef81f}
     engines: {node: '>=20.0.0'}
     peerDependencies:
-      typescript: '>=5.x'
+      typescript: '>=5.8.0'
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -6668,7 +6668,7 @@ snapshots:
       eslint: 10.8.0(jiti@2.6.1)
       lefthook: 2.1.10
 
-  '@inthememory/tsconfig@1.0.18(typescript@6.0.3)':
+  '@inthememory/tsconfig@1.0.21(typescript@6.0.3)':
     dependencies:
       typescript: 6.0.3
 
