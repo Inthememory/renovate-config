@@ -41,8 +41,8 @@ importers:
         specifier: 1.0.0
         version: 1.0.0(@commitlint/cli@21.2.1(@types/node@26.1.1)(conventional-commits-parser@7.1.0)(typescript@6.0.3))(eslint@10.8.0(jiti@2.6.1))(lefthook@2.1.10)
       '@inthememory/tsconfig':
-        specifier: 1.0.21
-        version: 1.0.21(typescript@6.0.3)
+        specifier: 1.0.24
+        version: 1.0.24(typescript@6.0.3)
       eslint:
         specifier: 10.8.0
         version: 10.8.0(jiti@2.6.1)
@@ -1014,8 +1014,8 @@ packages:
       eslint: '>=8.0.0'
       lefthook: ^2.0.0
 
-  '@inthememory/tsconfig@1.0.21':
-    resolution: {integrity: sha512-1rZrESeliDV9uYleAd4+Grco12xIeLRaw7Vwn+hE0AmJESzP+S/ZWHfMG4/AjyhJc+WMfh5Nt1s4cA/QLb77TA==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.21/3d6da52a8ab16cf16610dae76fe7e592c52ef81f}
+  '@inthememory/tsconfig@1.0.24':
+    resolution: {integrity: sha512-TFGUTo8gMrs8REbv4U4turnJI+OlPYvfUwOkeIwf/e9GV3/DC+Ca2mTkYzy8/8tz22r/aEeki37qzMTgfV+Utg==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.24/baeaa34ceed357675acc310d3779f37212e7829a}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       typescript: '>=5.8.0'
@@ -6668,7 +6668,7 @@ snapshots:
       eslint: 10.8.0(jiti@2.6.1)
       lefthook: 2.1.10
 
-  '@inthememory/tsconfig@1.0.21(typescript@6.0.3)':
+  '@inthememory/tsconfig@1.0.24(typescript@6.0.3)':
     dependencies:
       typescript: 6.0.3
 
