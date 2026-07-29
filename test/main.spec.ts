@@ -1,4 +1,5 @@
-import { describe, test, expect } from 'vitest';
+import { describe, expect, test } from 'vitest';
+
 import baseJSON from '../_base.json';
 import applicationJSON from '../application.json';
 import libraryJSON from '../library.json';

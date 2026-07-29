@@ -5,9 +5,9 @@ on:
     types: [opened, edited, synchronize, reopened, ready_for_review]
 
 permissions:
-  actions: read    # run checkout and reusable actions
-  contents: read   # checkout
-  packages: read   # install deps from GitHub Packages (ci-setup, ci-install)
+  actions: read # run checkout and reusable actions
+  contents: read # checkout
+  packages: read # install deps from GitHub Packages (ci-setup, ci-install)
 jobs:
   # TODO: the workflow are private and cannot be accessed by a public repository
   # pr-validate:
@@ -18,4 +18,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "PR validation workflow is private and cannot be accessed by a public repository"
-

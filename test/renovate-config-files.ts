@@ -1,18 +1,18 @@
-import { readFileSync, readdirSync, statSync } from 'node:fs';
-import { join, relative } from 'node:path';
+import { readdirSync, readFileSync, statSync } from 'node:fs';
+import path from 'node:path';
 
 const RENOVATE_SCHEMA = 'https://docs.renovatebot.com/renovate-schema.json';
 
 export function findRenovateConfigFiles(
   directory: string,
-  files: string[] = [],
-): string[] {
+  files: Array<string> = [],
+): Array<string> {
   for (const entry of readdirSync(directory)) {
     if (entry === 'node_modules') {
       continue;
     }
 
-    const entryPath = join(directory, entry);
+    const entryPath = path.join(directory, entry);
     const stats = statSync(entryPath);
 
     if (stats.isDirectory()) {
@@ -25,9 +25,9 @@ export function findRenovateConfigFiles(
     }
 
     if (readFileSync(entryPath, 'utf8').includes(RENOVATE_SCHEMA)) {
-      files.push(relative(process.cwd(), entryPath));
+      files.push(path.relative(process.cwd(), entryPath));
     }
   }
 
-  return files.sort();
+  return files.toSorted((left, right) => left.localeCompare(right));
 }
