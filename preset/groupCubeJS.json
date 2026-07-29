@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Group Cube.js npm packages and Docker images that share the same release version.",
+  "packageRules": [
+    {
+      "description": "Cube.js npm packages from https://github.com/cube-js/cube.",
+      "matchSourceUrls": ["https://github.com/cube-js/cube"],
+      "groupName": "cubejs monorepo",
+      "groupSlug": "cubejs-monorepo"
+    },
+    {
+      "description": "Cube.js Docker images (cube engine + cubestore) released on the same version.",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["cubejs/cube", "cubejs/cubestore"],
+      "groupName": "cubejs monorepo",
+      "groupSlug": "cubejs-monorepo"
+    }
+  ]
+}
