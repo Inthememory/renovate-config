@@ -51,7 +51,7 @@ For an unmaintained or untested repository include the configuration (will disab
 ```json title="renovate.json"
 {
   "extends": [
-    //...
+    // ...
     "github>Inthememory/renovate-config:safeLegacy"
   ]
 }
@@ -67,7 +67,7 @@ Assign a person
 
 ```json title="renovate.json"
 {
-  //...
+  // ...
   "assigneeSampleSize": 2, // Number of person to pick
   "assignees": ["john_doe"] // the github username
 }
@@ -77,7 +77,7 @@ Assign a team
 
 ```json title="renovate.json"
 {
-  //...
+  // ...
   "assigneeSampleSize": 2, // Number of person to pick
   "assignees": ["team:maintainers"] // 'team:' + the github team slug
 }
