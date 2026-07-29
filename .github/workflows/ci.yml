@@ -34,6 +34,10 @@ jobs:
         with:
           node-version-file: '.tool-versions'
           cache: 'pnpm'
+          registry-url: https://npm.pkg.github.com
+          scope: '@inthememory'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 🔧 Configure npm for GitHub Packages
         shell: bash
