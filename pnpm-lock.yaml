@@ -1,8 +1,31 @@
+---
+lockfileVersion: '9.0'
+
+importers:
+
+  .:
+    configDependencies:
+      '@inthememory/pnpm-plugin-config':
+        specifier: 1.0.0-alpha.7
+        version: 1.0.0-alpha.7
+
+packages:
+
+  '@inthememory/pnpm-plugin-config@1.0.0-alpha.7':
+    resolution: {integrity: sha512-OFvgB5kYkAk2u9OaxfPnVdh+9c1PIx08EIe6fFaZBQb3oypFQUQ1/0NLyrE8dmQgn5KT+RbvGZnq5dnxTWPWOw==, tarball: https://npm.pkg.github.com/download/@inthememory/pnpm-plugin-config/1.0.0-alpha.7/f6e984a1de4e0c39bb6ee72bee6456436158daac}
+
+snapshots:
+
+  '@inthememory/pnpm-plugin-config@1.0.0-alpha.7': {}
+
+---
 lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
+
+pnpmfileChecksum: sha256-tCJbkr+GnoWNSMaDQFgd966cR9jmibhCv56g3yv48RU=
 
 importers:
 
