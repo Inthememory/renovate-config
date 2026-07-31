@@ -44,7 +44,7 @@
     "@inthememory/tsconfig": "1.0.24",
     "eslint": "10.8.0",
     "renovate": "43.286.1",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "vitest": "4.1.10"
   },
   "packageManager": "pnpm@11.11.0",
