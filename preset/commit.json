@@ -25,7 +25,7 @@
       "commitMessagePrefix": "chore(deps): "
     },
     {
-      "commitMessagePrefix": "ci: ",
+      "commitMessagePrefix": "ci(deps): ",
       "matchCategories": ["ci"]
     }
   ],
