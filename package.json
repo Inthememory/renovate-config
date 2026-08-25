@@ -38,7 +38,7 @@
     "validate": "pnpm run build && pnpm run lint && pnpm run test"
   },
   "devDependencies": {
-    "@inthememory/commitlint-config": "1.20.0",
+    "@inthememory/commitlint-config": "1.21.0",
     "@inthememory/eslint-config": "1.11.0",
     "@inthememory/lefthook-config": "1.2.0",
     "@inthememory/tsconfig": "1.0.25",
