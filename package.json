@@ -42,7 +42,7 @@
     "@inthememory/eslint-config": "1.12.0",
     "@inthememory/lefthook-config": "1.3.0",
     "@inthememory/tsconfig": "1.0.25",
-    "eslint": "10.9.0",
+    "eslint": "10.9.1",
     "renovate": "44.39.3",
     "typescript": "6.0.3",
     "vitest": "4.1.11"
