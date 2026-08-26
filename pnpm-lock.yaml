@@ -6,17 +6,17 @@ importers:
   .:
     configDependencies:
       '@inthememory/pnpm-plugin-config':
-        specifier: 1.0.0-alpha.7
-        version: 1.0.0-alpha.7
+        specifier: 1.3.0
+        version: 1.3.0
 
 packages:
 
-  '@inthememory/pnpm-plugin-config@1.0.0-alpha.7':
-    resolution: {integrity: sha512-OFvgB5kYkAk2u9OaxfPnVdh+9c1PIx08EIe6fFaZBQb3oypFQUQ1/0NLyrE8dmQgn5KT+RbvGZnq5dnxTWPWOw==, tarball: https://npm.pkg.github.com/download/@inthememory/pnpm-plugin-config/1.0.0-alpha.7/f6e984a1de4e0c39bb6ee72bee6456436158daac}
+  '@inthememory/pnpm-plugin-config@1.3.0':
+    resolution: {integrity: sha512-T6YlAWFK0A4bNErz67qAz/X11K40Y7XG43pFI4xC1+HjYD6xGYEI4ZfYUTpcYdiNDlGJp/kT9ka88O3VOWwG6w==, tarball: https://npm.pkg.github.com/download/@inthememory/pnpm-plugin-config/1.3.0/130812d2b14139533eef9fad4098ce65b583ed09}
 
 snapshots:
 
-  '@inthememory/pnpm-plugin-config@1.0.0-alpha.7': {}
+  '@inthememory/pnpm-plugin-config@1.3.0': {}
 
 ---
 lockfileVersion: '9.0'

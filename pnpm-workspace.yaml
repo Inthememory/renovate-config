@@ -3,4 +3,4 @@ allowBuilds:
   dtrace-provider: true
   re2: true
 configDependencies:
-  '@inthememory/pnpm-plugin-config': 1.0.0-alpha.7
+   '@inthememory/pnpm-plugin-config': 1.3.0
