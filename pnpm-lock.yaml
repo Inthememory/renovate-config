@@ -41,8 +41,8 @@ importers:
         specifier: 1.5.0
         version: 1.5.0(@commitlint/cli@21.2.2(@types/node@26.4.0)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)
       '@inthememory/tsconfig':
-        specifier: 1.0.27
-        version: 1.0.27(typescript@6.0.3)
+        specifier: 1.0.28
+        version: 1.0.28(typescript@6.0.3)
       eslint:
         specifier: 10.9.1
         version: 10.9.1(jiti@2.6.1)(supports-color@7.2.0)
@@ -996,8 +996,8 @@ packages:
       eslint: '>=8.0.0'
       lefthook: ^2.0.0
 
-  '@inthememory/tsconfig@1.0.27':
-    resolution: {integrity: sha512-LVyvcpNTV1KeU5/sN0akHyLQ/nGscLSfYcis5f0wqySY1gaXPTQooRgtx9WGsziu2c41Fldic3N5K5ZOgqJM+g==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.27/9e55efc9ececaa06b13929b2fda4e602db1eac42}
+  '@inthememory/tsconfig@1.0.28':
+    resolution: {integrity: sha512-u7H8TDMpETnkAA6ZeX44iI/DiVo2tykO37S4iRCkD21oU4eAlkXBzqPwxGOfpNX6N1PjCYAoRDK4bC1caRVbnQ==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.28/a74dd5698f4e267b2fb9ab4c8f1c232b1008f428}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       typescript: '>=5.8.0'
@@ -6647,7 +6647,7 @@ snapshots:
       eslint: 10.9.1(jiti@2.6.1)(supports-color@7.2.0)
       lefthook: 2.1.12
 
-  '@inthememory/tsconfig@1.0.27(typescript@6.0.3)':
+  '@inthememory/tsconfig@1.0.28(typescript@6.0.3)':
     dependencies:
       typescript: 6.0.3
 
