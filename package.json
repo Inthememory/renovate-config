@@ -40,7 +40,7 @@
   "devDependencies": {
     "@inthememory/commitlint-config": "1.24.0",
     "@inthememory/eslint-config": "1.15.0",
-    "@inthememory/lefthook-config": "1.5.0",
+    "@inthememory/lefthook-config": "1.6.0",
     "@inthememory/tsconfig": "1.0.28",
     "eslint": "10.9.1",
     "renovate": "44.51.2",

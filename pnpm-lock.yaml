@@ -38,8 +38,8 @@ importers:
         specifier: 1.15.0
         version: 1.15.0(@nx/eslint-plugin@23.1.2(@babel/traverse@7.29.8(supports-color@7.2.0))(@typescript-eslint/parser@8.68.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(nx@23.1.2)(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(prettier@3.8.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.4.0)(vite@8.2.2(@types/node@26.4.0)(jiti@2.6.1)(yaml@2.9.0)))
       '@inthememory/lefthook-config':
-        specifier: 1.5.0
-        version: 1.5.0(@commitlint/cli@21.2.2(@types/node@26.4.0)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)
+        specifier: 1.6.0
+        version: 1.6.0(@commitlint/cli@21.2.2(@types/node@26.4.0)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)
       '@inthememory/tsconfig':
         specifier: 1.0.28
         version: 1.0.28(typescript@6.0.3)
@@ -988,8 +988,8 @@ packages:
       eslint: 9.x || 10.x
       typescript: 4.x || 5.x || 6.x
 
-  '@inthememory/lefthook-config@1.5.0':
-    resolution: {integrity: sha512-qjAyKIejcS+ZhzqQsbxZPx4rWC8nmCCsIxR/z06bEgVIcDDkvfeYdA3ecl6o5JH/Janj7WajCRkO38O4YMfOCw==, tarball: https://npm.pkg.github.com/download/@inthememory/lefthook-config/1.5.0/14f08c83671e45fa9e47dcbbf467d4c0b9be654d}
+  '@inthememory/lefthook-config@1.6.0':
+    resolution: {integrity: sha512-g0KvJAVo0wNip7eoXB9vKJjE04HVX3fZl5se70v3EdF9XJ7nYiwCYIhXmdqRNZ+n0U5SMH8nSqSFdU2kY5IR7g==, tarball: https://npm.pkg.github.com/download/@inthememory/lefthook-config/1.6.0/eaf9ca12300053b031ddbb1cbc9ea43b4d6ee337}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
@@ -6645,7 +6645,7 @@ snapshots:
       - ts-declaration-location
       - vitest
 
-  '@inthememory/lefthook-config@1.5.0(@commitlint/cli@21.2.2(@types/node@26.4.0)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)':
+  '@inthememory/lefthook-config@1.6.0(@commitlint/cli@21.2.2(@types/node@26.4.0)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)':
     dependencies:
       '@commitlint/cli': 21.2.2(@types/node@26.4.0)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
       eslint: 10.9.1(jiti@2.6.1)(supports-color@7.2.0)
