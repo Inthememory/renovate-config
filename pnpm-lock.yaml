@@ -35,8 +35,8 @@ importers:
         specifier: 1.24.0
         version: 1.24.0(@commitlint/cli@21.2.2(@types/node@26.4.0)(conventional-commits-parser@7.1.2)(typescript@6.0.3))
       '@inthememory/eslint-config':
-        specifier: 1.14.0
-        version: 1.14.0(@nx/eslint-plugin@23.1.2(@babel/traverse@7.29.8(supports-color@7.2.0))(@typescript-eslint/parser@8.68.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(nx@23.1.2)(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(prettier@3.8.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.4.0)(vite@8.2.2(@types/node@26.4.0)(jiti@2.6.1)(yaml@2.9.0)))
+        specifier: 1.15.0
+        version: 1.15.0(@nx/eslint-plugin@23.1.2(@babel/traverse@7.29.8(supports-color@7.2.0))(@typescript-eslint/parser@8.68.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(nx@23.1.2)(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(prettier@3.8.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.4.0)(vite@8.2.2(@types/node@26.4.0)(jiti@2.6.1)(yaml@2.9.0)))
       '@inthememory/lefthook-config':
         specifier: 1.5.0
         version: 1.5.0(@commitlint/cli@21.2.2(@types/node@26.4.0)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)
@@ -980,8 +980,8 @@ packages:
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
 
-  '@inthememory/eslint-config@1.14.0':
-    resolution: {integrity: sha512-rMrVcgRJpiuLkmo4RqG/zxLd3dsTDkXAHmCZQUFzTzLMLOfKWKWfO1vI/CvnOKhoJL4Z0CX3WydEm0AvWqE8EQ==, tarball: https://npm.pkg.github.com/download/@inthememory/eslint-config/1.14.0/83cabaaa11e05f02121dc8a8f581db6e383ba5a6}
+  '@inthememory/eslint-config@1.15.0':
+    resolution: {integrity: sha512-d3esr05luVhWf7bl1UGSGCB7tZWEAhRgBxKH++inzIn+zXW+8ONfxX3YVYJAQxBz8AgzRAYzk6jPQ12BXpuudg==, tarball: https://npm.pkg.github.com/download/@inthememory/eslint-config/1.15.0/04673934b2e06e86b406bae8ce419dacf9dbea94}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       '@nx/eslint-plugin': ^23.0.0
@@ -1838,8 +1838,12 @@ packages:
     resolution: {integrity: sha512-thjvECfHs98cLxl2xKZTVtS4YyGqiatCBL+grhx+G5v6oaHfyaKytWNLhXiNZyb3BjG8NKMhtIReXNDDdzilpA==}
     engines: {node: '>=22.0.0'}
 
-  '@w5s/eslint-config-ignore@1.21.0':
-    resolution: {integrity: sha512-p2H49foyvVFdKbo/ovKsgTOqQB/2fauGv4LbxNxJnwXuA36FVtVV0JEHyHhbUoL1Vfn2v83Buq/ptI41J4Opiw==}
+  '@w5s/dev@3.25.0':
+    resolution: {integrity: sha512-YbLiJL7dYbV2JuffC+6f4pnXsRy8H8hJpJLb6R3LPBA3t23kcCVEt9xc2aUSKCfar+pfqTfpUyuja0sYTex9eA==}
+    engines: {node: '>=22.0.0'}
+
+  '@w5s/eslint-config-ignore@1.24.0':
+    resolution: {integrity: sha512-JGipKeBozL089cSRVPRfPOynL9jUyLcK3Qg6WhW4Xk/PGXTN8P69N6+y5+tPCODDddOIL4UBzCOltJ6S44AF8g==}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       eslint: 9.x || 10.x
@@ -1850,8 +1854,8 @@ packages:
       typescript:
         optional: true
 
-  '@w5s/eslint-config@3.31.0':
-    resolution: {integrity: sha512-ZhuFHxo10KLW1b6MYjmJk6egyjxoX6UeWIabPfzYldan7LsUAHZ/2NkFWJ7Ve0zqykSeJ+7Lb4UwTsgXNWLa8w==}
+  '@w5s/eslint-config@3.34.0':
+    resolution: {integrity: sha512-zJeG9/Swn1UIpinlo7vABF5fQiqpQ2Fm7IUmN8X1tHbRKnbZ+Y/VBtld2jTT6IM77DaEdjsTn5M01M8fcOmBjw==}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       eslint: 9.x || 10.x
@@ -1865,8 +1869,8 @@ packages:
       typescript:
         optional: true
 
-  '@w5s/prettier-config@3.16.0':
-    resolution: {integrity: sha512-KejkM4bA1Gt4kug37hkkI+FPZRdoKSsykFaIp4iBnu5lNg9ROFLG8X52sqbJ0NoQasflnzQ2YJ29igBh+BKYHQ==}
+  '@w5s/prettier-config@3.19.0':
+    resolution: {integrity: sha512-P8rXXjmfnECCOvGZNn0fQ3B7+TED8s2r4xn4WSUyCSsUY8/Gc5GxrK3Sej7WahTsSk5Z+MmoQSrrUaFxWA3pLw==}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       prettier: 2.x || 3.x
@@ -6622,11 +6626,11 @@ snapshots:
       '@commitlint/config-conventional': 21.2.2
       '@commitlint/types': 21.2.0
 
-  '@inthememory/eslint-config@1.14.0(@nx/eslint-plugin@23.1.2(@babel/traverse@7.29.8(supports-color@7.2.0))(@typescript-eslint/parser@8.68.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(nx@23.1.2)(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(prettier@3.8.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.4.0)(vite@8.2.2(@types/node@26.4.0)(jiti@2.6.1)(yaml@2.9.0)))':
+  '@inthememory/eslint-config@1.15.0(@nx/eslint-plugin@23.1.2(@babel/traverse@7.29.8(supports-color@7.2.0))(@typescript-eslint/parser@8.68.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(nx@23.1.2)(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(prettier@3.8.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.4.0)(vite@8.2.2(@types/node@26.4.0)(jiti@2.6.1)(yaml@2.9.0)))':
     dependencies:
       '@nx/eslint-plugin': 23.1.2(@babel/traverse@7.29.8(supports-color@7.2.0))(@typescript-eslint/parser@8.68.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(nx@23.1.2)(supports-color@7.2.0)(typescript@6.0.3)
       '@w5s/dev': 3.22.0
-      '@w5s/eslint-config': 3.31.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(prettier@3.8.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.4.0)(vite@8.2.2(@types/node@26.4.0)(jiti@2.6.1)(yaml@2.9.0)))
+      '@w5s/eslint-config': 3.34.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(prettier@3.8.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.4.0)(vite@8.2.2(@types/node@26.4.0)(jiti@2.6.1)(yaml@2.9.0)))
       eslint: 10.9.1(jiti@2.6.1)(supports-color@7.2.0)
       eslint-plugin-testing-library: 7.16.2(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       typescript: 6.0.3
@@ -7560,7 +7564,11 @@ snapshots:
     dependencies:
       '@types/eslint': 9.6.1
 
-  '@w5s/eslint-config-ignore@1.21.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(typescript@6.0.3)':
+  '@w5s/dev@3.25.0':
+    dependencies:
+      '@types/eslint': 9.6.1
+
+  '@w5s/eslint-config-ignore@1.24.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(typescript@6.0.3)':
     dependencies:
       find-up: 8.0.0
       minimatch: 10.2.6
@@ -7569,7 +7577,7 @@ snapshots:
       eslint: 10.9.1(jiti@2.6.1)(supports-color@7.2.0)
       typescript: 6.0.3
 
-  '@w5s/eslint-config@3.31.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(prettier@3.8.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.4.0)(vite@8.2.2(@types/node@26.4.0)(jiti@2.6.1)(yaml@2.9.0)))':
+  '@w5s/eslint-config@3.34.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(prettier@3.8.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.4.0)(vite@8.2.2(@types/node@26.4.0)(jiti@2.6.1)(yaml@2.9.0)))':
     dependencies:
       '@e18e/eslint-plugin': 0.8.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))
       '@eslint-react/eslint-plugin': 5.18.3(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
@@ -7580,9 +7588,9 @@ snapshots:
       '@typescript-eslint/eslint-plugin': 8.68.0(@typescript-eslint/parser@8.68.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       '@typescript-eslint/parser': 8.68.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       '@vitest/eslint-plugin': 1.6.27(@typescript-eslint/eslint-plugin@8.68.0(@typescript-eslint/parser@8.68.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)(vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.4.0)(vite@8.2.2(@types/node@26.4.0)(jiti@2.6.1)(yaml@2.9.0)))
-      '@w5s/dev': 3.22.0
-      '@w5s/eslint-config-ignore': 1.21.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(typescript@6.0.3)
-      '@w5s/prettier-config': 3.16.0(prettier@3.8.1)
+      '@w5s/dev': 3.25.0
+      '@w5s/eslint-config-ignore': 1.24.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(typescript@6.0.3)
+      '@w5s/prettier-config': 3.19.0(prettier@3.8.1)
       eslint-merge-processors: 2.0.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.68.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)
       eslint-plugin-jsdoc: 64.1.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)
@@ -7609,7 +7617,7 @@ snapshots:
       - ts-declaration-location
       - vitest
 
-  '@w5s/prettier-config@3.16.0(prettier@3.8.1)':
+  '@w5s/prettier-config@3.19.0(prettier@3.8.1)':
     optionalDependencies:
       prettier: 3.8.1
 
