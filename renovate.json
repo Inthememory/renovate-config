@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>Inthememory/renovate-config:application"],
+  "extends": ["github>Inthememory/renovate-config:default"],
   "assigneesSampleSize": 1,
   "assignees": ["jpolo"],
   "packageRules": [

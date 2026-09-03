@@ -1,8 +1,0 @@
-{
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Default configuration for a library",
-  "extends": [
-    "github>Inthememory/renovate-config:recommended",
-    ":pinOnlyDevDependencies"
-  ]
-}

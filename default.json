@@ -1,8 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Default configuration for an application",
+  "description": "Default configuration for a general purpose (library, app, monorepo, etc.)",
   "extends": [
     "github>Inthememory/renovate-config:recommended",
-    ":pinAllExceptPeerDependencies"
+    ":pinOnlyDevDependencies"
   ]
 }

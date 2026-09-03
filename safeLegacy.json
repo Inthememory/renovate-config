@@ -1,8 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Safe configuration for a legacy application. No automerge is done and concurrency is limited",
+  "extends": [
+    "github>Inthememory/renovate-config:_base",
+    "github>Inthememory/renovate-config//preset/groupRecommended",
+    ":pinOnlyDevDependencies"
+  ],
   "prConcurrentLimit": 3,
   "prHourlyLimit": 2,
-  "branchConcurrentLimit": 1,
-  "automerge": false
+  "branchConcurrentLimit": 1
 }

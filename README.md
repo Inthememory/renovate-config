@@ -26,38 +26,31 @@
 
 ## Usage
 
-### 1. Select repository archetype : Application / Library ?
+### 1. Select repository archetype : Application / Library / Legacy ?
 
-For an application repository, the recommended strategy is to pin every dependencies, use this configuration:
-
-```json title="renovate.json"
-{
-  "extends": ["github>Inthememory/renovate-config:application"]
-}
-```
-
-For a library repository (only dev dependencies will be pinned), use this configuration:
-
-```json title="renovate.json"
-{
-  "extends": ["github>Inthememory/renovate-config:library"]
-}
-```
-
-### 2. Legacy repository** (unmaintained or untested)
+#### Legacy repository _(unmaintained or untested)_
 
 For an unmaintained or untested repository include the configuration (will disable automerge and limit maximum PR). Add a safe guard that avoids too many pull request and disables auto merge.
 
 ```json title="renovate.json"
 {
   "extends": [
-    // ...
     "github>Inthememory/renovate-config:safeLegacy"
   ]
 }
 ```
 
 Later, when the PR amount is lower and the application you should remove to `safeLegacy.json`
+
+#### General purpose
+
+For other kind of repository, libraries, monorepo, etc (only dev dependencies will be pinned), use this configuration:
+
+```json title="renovate.json"
+{
+  "extends": ["github>Inthememory/renovate-config:default"]
+}
+```
 
 ### Step 3: Add assignees (important)
 
