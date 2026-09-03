@@ -42,21 +42,10 @@ exports[`Configuration snapshot > _base.json 1`] = `
 }
 `;
 
-exports[`Configuration snapshot > application.json 1`] = `
-{
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Default configuration for an application",
-  "extends": [
-    "github>Inthememory/renovate-config:recommended",
-    ":pinAllExceptPeerDependencies",
-  ],
-}
-`;
-
 exports[`Configuration snapshot > library.json 1`] = `
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Default configuration for a library",
+  "description": "Default configuration for a general purpose (library, app, monorepo, etc.)",
   "extends": [
     "github>Inthememory/renovate-config:recommended",
     ":pinOnlyDevDependencies",
