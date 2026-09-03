@@ -4,10 +4,7 @@
   "minimumReleaseAge": "2 days",
   "vulnerabilityAlerts": {
     "schedule": [],
-    "minimumReleaseAge": null,
-    "automerge": true,
-    "automergeType": "pr",
-    "platformAutomerge": true
+    "minimumReleaseAge": null
   },
   "packageRules": [
     {
@@ -17,11 +14,6 @@
     {
       "matchPackageNames": ["/^@inthememory\\//", "/^@vusion\\//"],
       "minimumReleaseAge": null
-    },
-    {
-      "description": "Do not automerge major security bumps without review",
-      "matchUpdateTypes": ["major"],
-      "vulnerabilityAlerts": { "automerge": false }
     }
   ]
 }

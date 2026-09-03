@@ -28,7 +28,6 @@ exports[`Configuration snapshot > _base.json 1`] = `
   "forkProcessing": "disabled",
   "ignoreUnstable": true,
   "lockFileMaintenance": {
-    "automerge": true,
     "enabled": true,
   },
   "platformAutomerge": true,
