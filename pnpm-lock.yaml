@@ -124,8 +124,8 @@ importers:
         specifier: 1.16.0
         version: 1.16.0(@nx/eslint-plugin@23.2.0(@babel/traverse@7.29.8(supports-color@7.2.0))(@typescript-eslint/parser@8.69.0(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(nx@23.2.0)(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(prettier@3.8.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(jiti@2.6.1)(yaml@2.9.0)))
       '@inthememory/lefthook-config':
-        specifier: 1.6.0
-        version: 1.6.0(@commitlint/cli@21.2.2(@types/node@26.4.1)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)
+        specifier: 1.7.0
+        version: 1.7.0(@commitlint/cli@21.2.2(@types/node@26.4.1)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)(prettier@3.8.1)
       '@inthememory/tsconfig':
         specifier: 1.0.29
         version: 1.0.29(typescript@6.0.3)
@@ -1088,13 +1088,14 @@ packages:
       eslint: 9.x || 10.x
       typescript: 4.x || 5.x || 6.x
 
-  '@inthememory/lefthook-config@1.6.0':
-    resolution: {integrity: sha512-g0KvJAVo0wNip7eoXB9vKJjE04HVX3fZl5se70v3EdF9XJ7nYiwCYIhXmdqRNZ+n0U5SMH8nSqSFdU2kY5IR7g==, tarball: https://npm.pkg.github.com/download/@inthememory/lefthook-config/1.6.0/eaf9ca12300053b031ddbb1cbc9ea43b4d6ee337}
+  '@inthememory/lefthook-config@1.7.0':
+    resolution: {integrity: sha512-1Dsw6HGE8tVC4/miMJbGVolNeY+uoO00ZCPdLv/wlNtHNQZo/Sh4soOdoocapg0jkefQmAjts7FKRAYvLDTDgQ==, tarball: https://npm.pkg.github.com/download/@inthememory/lefthook-config/1.7.0/c6b2aca14ced1947fce48152af63ef33c71b12dc}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
       eslint: '>=8.0.0'
       lefthook: ^2.0.0
+      prettier: 2.x || 3.x
 
   '@inthememory/tsconfig@1.0.29':
     resolution: {integrity: sha512-cCNX5UAmAU2FyFalT527Xq98ZJV31VBvKFPXGnz99E5StOQFP/AK4wpmnCNJzCu2DswvP0yeZoh89ZDRwmdEcA==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.29/aaec901cfe1852ef6a83114184b178677b932f3a}
@@ -6804,11 +6805,12 @@ snapshots:
       - ts-declaration-location
       - vitest
 
-  '@inthememory/lefthook-config@1.6.0(@commitlint/cli@21.2.2(@types/node@26.4.1)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)':
+  '@inthememory/lefthook-config@1.7.0(@commitlint/cli@21.2.2(@types/node@26.4.1)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)(prettier@3.8.1)':
     dependencies:
       '@commitlint/cli': 21.2.2(@types/node@26.4.1)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
       eslint: 10.10.0(jiti@2.6.1)(supports-color@7.2.0)
       lefthook: 2.1.12
+      prettier: 3.8.1
 
   '@inthememory/tsconfig@1.0.29(typescript@6.0.3)':
     dependencies:
