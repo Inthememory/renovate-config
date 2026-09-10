@@ -41,7 +41,7 @@
     "@inthememory/commitlint-config": "1.26.0",
     "@inthememory/eslint-config": "1.17.0",
     "@inthememory/lefthook-config": "1.8.0",
-    "@inthememory/tsconfig": "1.0.30",
+    "@inthememory/tsconfig": "1.0.31",
     "eslint": "10.10.0",
     "renovate": "44.69.6",
     "typescript": "6.0.3",
