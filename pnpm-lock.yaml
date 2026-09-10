@@ -124,8 +124,8 @@ importers:
         specifier: 1.16.0
         version: 1.16.0(@nx/eslint-plugin@23.2.0(@babel/traverse@7.29.8(supports-color@7.2.0))(@typescript-eslint/parser@8.69.0(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(nx@23.2.0)(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(prettier@3.8.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(jiti@2.6.1)(yaml@2.9.0)))
       '@inthememory/lefthook-config':
-        specifier: 1.7.0
-        version: 1.7.0(@commitlint/cli@21.2.2(@types/node@26.4.1)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)(prettier@3.8.1)
+        specifier: 1.8.0
+        version: 1.8.0(@commitlint/cli@21.2.2(@types/node@26.4.1)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)(prettier@3.8.1)
       '@inthememory/tsconfig':
         specifier: 1.0.30
         version: 1.0.30(typescript@6.0.3)
@@ -1088,8 +1088,8 @@ packages:
       eslint: 9.x || 10.x
       typescript: 4.x || 5.x || 6.x
 
-  '@inthememory/lefthook-config@1.7.0':
-    resolution: {integrity: sha512-1Dsw6HGE8tVC4/miMJbGVolNeY+uoO00ZCPdLv/wlNtHNQZo/Sh4soOdoocapg0jkefQmAjts7FKRAYvLDTDgQ==, tarball: https://npm.pkg.github.com/download/@inthememory/lefthook-config/1.7.0/c6b2aca14ced1947fce48152af63ef33c71b12dc}
+  '@inthememory/lefthook-config@1.8.0':
+    resolution: {integrity: sha512-m9hgdc/7JFoCTvs5B2pQ3CLa+zlkMh3NVk1HPH5+gFuck+Lm/IW3SZwIx93Nj0yph4MUc3syR+Rr9dp/VZ8uTw==, tarball: https://npm.pkg.github.com/download/@inthememory/lefthook-config/1.8.0/7513586e31df46510496a4a9a447a7115db8bdf5}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
@@ -6789,7 +6789,7 @@ snapshots:
       - ts-declaration-location
       - vitest
 
-  '@inthememory/lefthook-config@1.7.0(@commitlint/cli@21.2.2(@types/node@26.4.1)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)(prettier@3.8.1)':
+  '@inthememory/lefthook-config@1.8.0(@commitlint/cli@21.2.2(@types/node@26.4.1)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(lefthook@2.1.12)(prettier@3.8.1)':
     dependencies:
       '@commitlint/cli': 21.2.2(@types/node@26.4.1)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
       eslint: 10.10.0(jiti@2.6.1)(supports-color@7.2.0)
