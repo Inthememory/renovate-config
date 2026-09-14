@@ -21,6 +21,7 @@ exports[`Configuration snapshot > _base.json 1`] = `
     "helpers:goXPackagesNameLink",
     "github>Inthememory/renovate-config//preset/labels",
     "github>Inthememory/renovate-config//preset/commit",
+    "github>Inthememory/renovate-config//preset/gitsubmodules",
     "github>Inthememory/renovate-config//preset/security",
     "github>Inthememory/renovate-config//preset/schedule",
     "github>Inthememory/renovate-config//preset/ignore",
