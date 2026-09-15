@@ -41,7 +41,7 @@
     "@commitlint/cli": "21.2.2",
     "@inthememory/commitlint-config": "1.28.0",
     "@inthememory/eslint-config": "1.18.0",
-    "@inthememory/lefthook-config": "1.9.0",
+    "@inthememory/lefthook-config": "1.10.0",
     "@inthememory/tsconfig": "1.0.32",
     "eslint": "10.10.0",
     "renovate": "44.82.4",
