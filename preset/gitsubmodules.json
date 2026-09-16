@@ -3,5 +3,12 @@
   "description": "Git submodules",
   "git-submodules": {
     "enabled": true
-  }
+  },
+  "packageRules": [
+    {
+      "description": "Skip minimumReleaseAge for git-submodules. Submodules track commit SHAs on a default branch, not published releases; on a busy source repo the newest digest is almost never old enough, so the age gate parks updates forever under Pending Status Checks. Automerge (not delay) is the trust boundary — see preset/automergeGitSubmodules.",
+      "matchManagers": ["git-submodules"],
+      "minimumReleaseAge": null
+    }
+  ]
 }

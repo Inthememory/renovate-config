@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge first-party git submodule digests",
+  "packageRules": [
+    {
+      "description": "Automerge git-submodule digests whose source is github.com/Inthememory/*. History was already reviewed in the source repo; consuming-repo CI remains the merge gate. Third-party submodule PRs stay manual.",
+      "matchManagers": ["git-submodules"],
+      "matchSourceUrls": ["https://github.com/Inthememory/**"],
+      "automerge": true
+    }
+  ]
+}
