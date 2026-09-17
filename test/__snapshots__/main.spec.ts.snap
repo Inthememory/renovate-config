@@ -50,6 +50,7 @@ exports[`Configuration snapshot > library.json 1`] = `
   "extends": [
     "github>Inthememory/renovate-config:recommended",
     ":pinOnlyDevDependencies",
+    "github>Inthememory/renovate-config//preset/pinPnpmCatalogDev",
   ],
 }
 `;

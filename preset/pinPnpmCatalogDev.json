@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Pin versions for pnpm named catalog dev (same policy as :pinOnlyDevDependencies)",
+  "packageRules": [
+    {
+      "matchDepTypes": ["pnpm.catalog.dev"],
+      "rangeStrategy": "pin"
+    }
+  ]
+}

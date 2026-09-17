@@ -3,38 +3,38 @@
   "description": "Automerge for NPM dev dependencies",
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "pnpm.catalog.dev"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "extends": ["packages:linters"],
       "automerge": true
     },
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "pnpm.catalog.dev"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "extends": ["monorepo:commitlint"],
       "automerge": true
     },
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "pnpm.catalog.dev"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "extends": ["monorepo:jest"],
       "matchPackageNames": ["es-jest", "ts-jest", "@vue/vue3-jest"],
       "automerge": true
     },
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "pnpm.catalog.dev"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "extends": ["monorepo:vitest"],
       "automerge": true
     },
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "pnpm.catalog.dev"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "matchPackageNames": ["npm-run-all", "npm-run-all2", "concurrently"],
       "automerge": true
     },
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "pnpm.catalog.dev"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     },

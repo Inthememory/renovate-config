@@ -3,6 +3,7 @@
   "description": "Default configuration for a general purpose (library, app, monorepo, etc.)",
   "extends": [
     "github>Inthememory/renovate-config:recommended",
-    ":pinOnlyDevDependencies"
+    ":pinOnlyDevDependencies",
+    "github>Inthememory/renovate-config//preset/pinPnpmCatalogDev"
   ]
 }

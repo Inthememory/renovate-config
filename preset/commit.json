@@ -21,7 +21,7 @@
       "commitMessagePrefix": "chore(deps): "
     },
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "pnpm.catalog.dev"],
       "commitMessagePrefix": "chore(deps): "
     },
     {

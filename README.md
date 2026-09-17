@@ -14,7 +14,7 @@
 ## Features
 
 - ✅ Automerge only when safe
-  - When dev dependency that is self validated by CI
+  - When a Dev-class dependency (npm `devDependencies` or pnpm named catalog `dev`) is self-validated by CI
   - When project is following semantic-versioning and well maintained
   - When a git submodule points at github.com/Inthememory/* (digest PRs automerge once CI is green)
 - 🔗 Git submodules skip the release-age wait (commit pointers are not published releases; delay would stall updates forever on a busy source branch)

@@ -4,7 +4,8 @@
   "extends": [
     "github>Inthememory/renovate-config:_base",
     "github>Inthememory/renovate-config//preset/groupRecommended",
-    ":pinOnlyDevDependencies"
+    ":pinOnlyDevDependencies",
+    "github>Inthememory/renovate-config//preset/pinPnpmCatalogDev"
   ],
   "prConcurrentLimit": 3,
   "prHourlyLimit": 2,
