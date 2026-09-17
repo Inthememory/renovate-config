@@ -142,6 +142,8 @@ pnpm-lock.yaml.bak
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+# skills-npm
+**/skills/npm-*
 #==================================================================================================
 #                             ⬇ Add Project specific rules below ⬇
 #==================================================================================================
