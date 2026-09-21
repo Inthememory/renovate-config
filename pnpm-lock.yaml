@@ -175,20 +175,20 @@ importers:
   .:
     devDependencies:
       '@commitlint/cli':
-        specifier: 21.2.2
-        version: 21.2.2(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
+        specifier: 21.2.3
+        version: 21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
       '@inthememory/agent-config':
         specifier: 1.3.0
         version: 1.3.0
       '@inthememory/commitlint-config':
         specifier: 1.29.0
-        version: 1.29.0(@commitlint/cli@21.2.2(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))
+        version: 1.29.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))
       '@inthememory/eslint-config':
         specifier: 1.20.0
         version: 1.20.0(@nx/eslint-plugin@23.2.1(@babel/traverse@7.29.8(supports-color@7.2.0))(@typescript-eslint/parser@8.70.0(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(nx@23.2.1)(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.6)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.1(@opentelemetry/api@1.9.1)(@types/node@26.6.2)(vite@8.3.0(@types/node@26.6.2)(jiti@2.7.0)(yaml@2.9.1)))
       '@inthememory/lefthook-config':
         specifier: 1.11.0
-        version: 1.11.0(@commitlint/cli@21.2.2(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.1.14)(prettier@3.9.6)
+        version: 1.11.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.1.14)(prettier@3.9.6)
       '@inthememory/tsconfig':
         specifier: 1.0.33
         version: 1.0.33(typescript@6.0.3)
@@ -900,8 +900,8 @@ packages:
     resolution: {integrity: sha512-dlT1m5e/0yUL0kRNcQn7yGLVThkgbB0Ga/1AmfDDC/8ik6AIiSf2QLQO2zPYvefsHP0aFgxO93cVLCCfDp7kzQ==}
     engines: {node: '>= 20.12.0'}
 
-  '@commitlint/cli@21.2.2':
-    resolution: {integrity: sha512-a+6hQxIxnpdvSvS2apvttPNbEliYsVC3PqFYDiiB2kjbwIsQsj1urvQ4Tkf70pKYozPalKAuRQmm/GHwndduqA==}
+  '@commitlint/cli@21.2.3':
+    resolution: {integrity: sha512-5yOX6IRjcrIReCxpyAd04hgI/yhUMpVBJ/ouwFV0wk9yx5+fYRDWZWJ5h55Tbedgfol+5m2mU5nqzbB8g3v0vQ==}
     engines: {node: '>=22.12.0'}
     hasBin: true
 
@@ -6582,7 +6582,7 @@ snapshots:
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
 
-  '@commitlint/cli@21.2.2(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3)':
+  '@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3)':
     dependencies:
       '@commitlint/config-conventional': 21.2.3
       '@commitlint/format': 21.2.3
@@ -6910,9 +6910,9 @@ snapshots:
 
   '@inthememory/agent-config@1.3.0': {}
 
-  '@inthememory/commitlint-config@1.29.0(@commitlint/cli@21.2.2(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))':
+  '@inthememory/commitlint-config@1.29.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))':
     dependencies:
-      '@commitlint/cli': 21.2.2(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
+      '@commitlint/cli': 21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
       '@commitlint/config-conventional': 21.2.3
       '@commitlint/types': 21.2.3
 
@@ -6937,9 +6937,9 @@ snapshots:
       - ts-declaration-location
       - vitest
 
-  '@inthememory/lefthook-config@1.11.0(@commitlint/cli@21.2.2(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.1.14)(prettier@3.9.6)':
+  '@inthememory/lefthook-config@1.11.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.1.14)(prettier@3.9.6)':
     dependencies:
-      '@commitlint/cli': 21.2.2(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
+      '@commitlint/cli': 21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
       eslint: 10.11.0(jiti@2.7.0)(supports-color@7.2.0)
       lefthook: 2.1.14
       prettier: 3.9.6
