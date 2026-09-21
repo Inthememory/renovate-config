@@ -45,7 +45,7 @@
     "@inthememory/lefthook-config": "1.11.0",
     "@inthememory/tsconfig": "1.0.33",
     "eslint": "10.10.0",
-    "renovate": "44.94.4",
+    "renovate": "44.103.2",
     "skills-npm": "1.2.1",
     "typescript": "6.0.3",
     "vitest": "5.0.1"
