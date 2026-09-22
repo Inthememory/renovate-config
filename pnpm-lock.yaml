@@ -190,8 +190,8 @@ importers:
         specifier: 1.12.0
         version: 1.12.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.1.14)(prettier@3.9.6)
       '@inthememory/tsconfig':
-        specifier: 1.0.34
-        version: 1.0.34(typescript@6.0.3)
+        specifier: 1.0.35
+        version: 1.0.35(typescript@6.0.3)
       eslint:
         specifier: 10.11.0
         version: 10.11.0(jiti@2.7.0)(supports-color@7.2.0)
@@ -1180,8 +1180,8 @@ packages:
       lefthook: ^2.0.0
       prettier: 2.x || 3.x
 
-  '@inthememory/tsconfig@1.0.34':
-    resolution: {integrity: sha512-RfZtvZTtgsfCxvS5m228zfgmCR1TbHb8W4prn3NsdR+EPv/L834I1J7q2ERtZDdavapmGO6t7rhsXo0+SP5AKg==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.34/6e78da527452652b0b9ed0c200f29be98aeffa81}
+  '@inthememory/tsconfig@1.0.35':
+    resolution: {integrity: sha512-6iNgEwaL/3Iy6cQwl3cu9cf+cJeZQ46/PsCZdQQUcZx3KavifE6olH97q0eUi5n10uWHEej6Ai/2/mdDoRNNBQ==, tarball: https://npm.pkg.github.com/download/@inthememory/tsconfig/1.0.35/5c10f4c11a7aeacff1fc9f03ebe7aada26e340eb}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       typescript: '>=5.8.0'
@@ -6986,7 +6986,7 @@ snapshots:
       lefthook: 2.1.14
       prettier: 3.9.6
 
-  '@inthememory/tsconfig@1.0.34(typescript@6.0.3)':
+  '@inthememory/tsconfig@1.0.35(typescript@6.0.3)':
     dependencies:
       typescript: 6.0.3
 
