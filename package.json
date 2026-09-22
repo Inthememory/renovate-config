@@ -40,7 +40,7 @@
   "devDependencies": {
     "@commitlint/cli": "21.2.3",
     "@inthememory/agent-config": "1.4.0",
-    "@inthememory/commitlint-config": "1.29.0",
+    "@inthememory/commitlint-config": "1.30.0",
     "@inthememory/eslint-config": "1.21.0",
     "@inthememory/lefthook-config": "1.11.0",
     "@inthememory/tsconfig": "1.0.34",
