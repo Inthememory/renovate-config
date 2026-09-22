@@ -187,8 +187,8 @@ importers:
         specifier: 1.21.0
         version: 1.21.0(@nx/eslint-plugin@23.2.1(@babel/traverse@7.29.8(supports-color@7.2.0))(@typescript-eslint/parser@8.70.0(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(nx@23.2.1)(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.6)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.1(@opentelemetry/api@1.9.1)(@types/node@26.6.2)(vite@8.3.0(@types/node@26.6.2)(jiti@2.7.0)(yaml@2.9.1)))
       '@inthememory/lefthook-config':
-        specifier: 1.11.0
-        version: 1.11.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.1.14)(prettier@3.9.6)
+        specifier: 1.12.0
+        version: 1.12.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.1.14)(prettier@3.9.6)
       '@inthememory/tsconfig':
         specifier: 1.0.34
         version: 1.0.34(typescript@6.0.3)
@@ -1171,8 +1171,8 @@ packages:
     peerDependencies:
       eslint: '>=9'
 
-  '@inthememory/lefthook-config@1.11.0':
-    resolution: {integrity: sha512-U7pOgB+pEHmK1X/LP8/mro2lazlMAuBI990p4Jr+ykv/kYu68MEiytp1A3ECKnfDLASJ8GDgq68VVGM9XHt5cA==, tarball: https://npm.pkg.github.com/download/@inthememory/lefthook-config/1.11.0/87603de53d22991b1354cfa03fc4d42ef8f15364}
+  '@inthememory/lefthook-config@1.12.0':
+    resolution: {integrity: sha512-D9UYjk/NiAMLsqp2hS3GZYpqMShTt0XnGIhSCeZ5l0L4hDd1ON7srPJ8fQnHtCiw8Ow6EepsyL8v4749Tlpl9w==, tarball: https://npm.pkg.github.com/download/@inthememory/lefthook-config/1.12.0/8f8edb3855a6fe1139b94544279c7726ebb83d67}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
@@ -6979,7 +6979,7 @@ snapshots:
     dependencies:
       eslint: 10.11.0(jiti@2.7.0)(supports-color@7.2.0)
 
-  '@inthememory/lefthook-config@1.11.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.1.14)(prettier@3.9.6)':
+  '@inthememory/lefthook-config@1.12.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.1.14)(prettier@3.9.6)':
     dependencies:
       '@commitlint/cli': 21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
       eslint: 10.11.0(jiti@2.7.0)(supports-color@7.2.0)
