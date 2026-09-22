@@ -181,8 +181,8 @@ importers:
         specifier: 1.4.0
         version: 1.4.0
       '@inthememory/commitlint-config':
-        specifier: 1.29.0
-        version: 1.29.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))
+        specifier: 1.30.0
+        version: 1.30.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))
       '@inthememory/eslint-config':
         specifier: 1.21.0
         version: 1.21.0(@nx/eslint-plugin@23.2.1(@babel/traverse@7.29.8(supports-color@7.2.0))(@typescript-eslint/parser@8.70.0(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(nx@23.2.1)(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.6)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.1(@opentelemetry/api@1.9.1)(@types/node@26.6.2)(vite@8.3.0(@types/node@26.6.2)(jiti@2.7.0)(yaml@2.9.1)))
@@ -1152,8 +1152,8 @@ packages:
     resolution: {integrity: sha512-8BeAiSPx+R571I0zJ/r2S7YUElw1tGg/i7i+qQhCkcT0V/UtSgRM+CzInyEclzjPjG/URwLUOm0p6d6du4S9iQ==, tarball: https://npm.pkg.github.com/download/@inthememory/agent-config/1.4.0/0b6fcf785ba3b24f03b2e463b93aafb7db9e6fdf}
     engines: {node: '>=20.0.0'}
 
-  '@inthememory/commitlint-config@1.29.0':
-    resolution: {integrity: sha512-1Xk+YWSb1ucv2ohtFPmuT+4Q+ZIXmBZeKTOZSmWylQ4FQm4GZgeD9YusMbt1GNYCynOTtf5Vo2pFYdrNc940zg==, tarball: https://npm.pkg.github.com/download/@inthememory/commitlint-config/1.29.0/bdc622405864d7f537b1ab3e44c7dcfdcc7035ef}
+  '@inthememory/commitlint-config@1.30.0':
+    resolution: {integrity: sha512-5BNcbjZkw8gdhYz44678/E8xJtoX5i9xIy5qLkySS7an543fJtCE7pPfvWZuOuMJsiUjyABrHXIeEFxdndWyWA==, tarball: https://npm.pkg.github.com/download/@inthememory/commitlint-config/1.30.0/b4430b419e7ce40f1629ad16706f1d797eb3cd6c}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
@@ -6946,7 +6946,7 @@ snapshots:
 
   '@inthememory/agent-config@1.4.0': {}
 
-  '@inthememory/commitlint-config@1.29.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))':
+  '@inthememory/commitlint-config@1.30.0(@commitlint/cli@21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3))':
     dependencies:
       '@commitlint/cli': 21.2.3(@types/node@26.6.2)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
       '@commitlint/config-conventional': 21.2.3
