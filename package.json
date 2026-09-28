@@ -48,7 +48,7 @@
     "renovate": "44.111.4",
     "skills-npm": "1.2.1",
     "typescript": "6.0.3",
-    "vitest": "5.0.1"
+    "vitest": "5.0.2"
   },
   "packageManager": "pnpm@12.6.0",
   "engines": {
