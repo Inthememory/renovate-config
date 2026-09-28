@@ -44,6 +44,7 @@
     "@inthememory/eslint-config": "1.22.0",
     "@inthememory/lefthook-config": "1.13.0",
     "@inthememory/tsconfig": "1.0.35",
+    "@inthememory/vitest-config": "4.0.1",
     "eslint": "10.11.0",
     "renovate": "44.115.10",
     "skills-npm": "1.2.1",

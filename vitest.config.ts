@@ -1,6 +1,5 @@
-import { defineConfig } from 'vitest/config';
-
 import { findRenovateConfigFiles } from './test/renovate-config-files.js';
+import { defineConfig } from './vitest.config.shared.js';
 
 const root = import.meta.dirname;
 
