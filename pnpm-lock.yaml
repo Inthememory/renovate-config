@@ -178,8 +178,8 @@ importers:
         specifier: 21.2.3
         version: 21.2.3(@types/node@26.6.3)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
       '@inthememory/agent-config':
-        specifier: 1.5.1
-        version: 1.5.1
+        specifier: 1.5.2
+        version: 1.5.2
       '@inthememory/commitlint-config':
         specifier: 1.31.1
         version: 1.31.1(@commitlint/cli@21.2.3(@types/node@26.6.3)(conventional-commits-parser@7.1.2)(typescript@6.0.3))
@@ -1155,8 +1155,8 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@inthememory/agent-config@1.5.1':
-    resolution: {integrity: sha512-Qx0Ru5chQwr99OG5uh/Cg5RqARGKu22pg7nP3Ht5fcmNezllm+evwW1Ko5xB0XfBLIdv+nUViYc7xZEFiR5nEw==, tarball: https://npm.pkg.github.com/download/@inthememory/agent-config/1.5.1/5d604fe4408712814cf9b91cf24d146241036c7e}
+  '@inthememory/agent-config@1.5.2':
+    resolution: {integrity: sha512-tvzies0KJ/6Hba5ibPtCG2NKivstAN37Ic1JSTeWOAECQcjctEGrOjcbLqRdIg744KsSSbgkodS/muKEm0LcfQ==, tarball: https://npm.pkg.github.com/download/@inthememory/agent-config/1.5.2/da3ce9ff61be7879cfb23f56be15b6fc3b398f8e}
     engines: {node: '>=20.0.0'}
 
   '@inthememory/commitlint-config@1.31.1':
@@ -6993,7 +6993,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@inthememory/agent-config@1.5.1': {}
+  '@inthememory/agent-config@1.5.2': {}
 
   '@inthememory/commitlint-config@1.31.1(@commitlint/cli@21.2.3(@types/node@26.6.3)(conventional-commits-parser@7.1.2)(typescript@6.0.3))':
     dependencies:
