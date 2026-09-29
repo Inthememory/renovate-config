@@ -43,7 +43,7 @@
     "@inthememory/commitlint-config": "1.31.1",
     "@inthememory/eslint-config": "1.22.1",
     "@inthememory/lefthook-config": "1.13.1",
-    "@inthememory/tsconfig": "1.0.36",
+    "@inthememory/tsconfig": "1.0.37",
     "@inthememory/vitest-config": "4.0.1",
     "eslint": "10.11.0",
     "renovate": "44.115.10",
