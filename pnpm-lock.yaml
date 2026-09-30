@@ -193,8 +193,8 @@ importers:
         specifier: 1.0.37
         version: 1.0.37(typescript@6.0.3)
       '@inthememory/vitest-config':
-        specifier: 4.0.1
-        version: 4.0.1(vitest@5.0.2)
+        specifier: 4.0.2
+        version: 4.0.2(vitest@5.0.2)
       eslint:
         specifier: 10.11.0
         version: 10.11.0(jiti@2.7.0)(supports-color@7.2.0)
@@ -1193,8 +1193,8 @@ packages:
     peerDependencies:
       typescript: '>=5.8.0'
 
-  '@inthememory/vitest-config@4.0.1':
-    resolution: {integrity: sha512-Bp21E5XJZXpPJ+lqG7Cpwks2DUGhUv9Suw/hzzPPyPncSTy2iQ5HjPCBa0+T4kOPOyVBlZC9JCM8XQzizHyEXQ==, tarball: https://npm.pkg.github.com/download/@inthememory/vitest-config/4.0.1/a19cb39d9f79fa0d0be485bc4f7feecb1cf2a9a6}
+  '@inthememory/vitest-config@4.0.2':
+    resolution: {integrity: sha512-HdXT98UNfmI6D92n+2FsqaWKJwCHIf7RaFE6rv4QuoUoNgLdA8N3J2pgfDL/O6Z2MsTkO3EQrxvNR6Knb6j9RA==, tarball: https://npm.pkg.github.com/download/@inthememory/vitest-config/4.0.2/a8d131055bb309578b68c49c22263454b6378a8d}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       vitest: 4.x || 5.x
@@ -7039,7 +7039,7 @@ snapshots:
     dependencies:
       typescript: 6.0.3
 
-  '@inthememory/vitest-config@4.0.1(vitest@5.0.2)':
+  '@inthememory/vitest-config@4.0.2(vitest@5.0.2)':
     dependencies:
       '@vitest/coverage-v8': 5.0.2(vitest@5.0.2)
       vitest: 5.0.2(@opentelemetry/api@1.9.1)(@types/node@26.6.3)(@vitest/coverage-v8@5.0.2)(vite@8.3.1(@types/node@26.6.3)(jiti@2.7.0)(yaml@2.9.1))
