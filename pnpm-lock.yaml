@@ -181,8 +181,8 @@ importers:
         specifier: 1.5.2
         version: 1.5.2
       '@inthememory/commitlint-config':
-        specifier: 1.31.1
-        version: 1.31.1(@commitlint/cli@21.2.3(@types/node@26.6.3)(conventional-commits-parser@7.1.2)(typescript@6.0.3))
+        specifier: 1.31.2
+        version: 1.31.2(@commitlint/cli@21.2.3(@types/node@26.6.3)(conventional-commits-parser@7.1.2)(typescript@6.0.3))
       '@inthememory/eslint-config':
         specifier: 1.22.2
         version: 1.22.2(@nx/eslint-plugin@23.2.1(@babel/traverse@7.29.8(supports-color@7.2.0))(@typescript-eslint/parser@8.70.1(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(nx@23.2.1)(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.8)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.2)
@@ -1159,8 +1159,8 @@ packages:
     resolution: {integrity: sha512-tvzies0KJ/6Hba5ibPtCG2NKivstAN37Ic1JSTeWOAECQcjctEGrOjcbLqRdIg744KsSSbgkodS/muKEm0LcfQ==, tarball: https://npm.pkg.github.com/download/@inthememory/agent-config/1.5.2/da3ce9ff61be7879cfb23f56be15b6fc3b398f8e}
     engines: {node: '>=20.0.0'}
 
-  '@inthememory/commitlint-config@1.31.1':
-    resolution: {integrity: sha512-QaI1WMe5HWeEEZX5Pj2q1jZ1ADgLOFcfNgfJso9ux7hEr0b9V/LOI0Ul6+lUoBNwbdyy0IZ5qD+XFlDErUfGJA==, tarball: https://npm.pkg.github.com/download/@inthememory/commitlint-config/1.31.1/bcbce11d25b76edb8c12cbf4ad1674a00710e005}
+  '@inthememory/commitlint-config@1.31.2':
+    resolution: {integrity: sha512-w+LyeBkijAqL5kOlUpwJQ49l6X8qUgDgnHeSdoOId4FS/+OvttkKhH31dSYd+8R4wNoLMliWZ6PRbgztO5xw9g==, tarball: https://npm.pkg.github.com/download/@inthememory/commitlint-config/1.31.2/cd6cf0c47b6298626648f69d5912977a83464189}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
@@ -6995,7 +6995,7 @@ snapshots:
 
   '@inthememory/agent-config@1.5.2': {}
 
-  '@inthememory/commitlint-config@1.31.1(@commitlint/cli@21.2.3(@types/node@26.6.3)(conventional-commits-parser@7.1.2)(typescript@6.0.3))':
+  '@inthememory/commitlint-config@1.31.2(@commitlint/cli@21.2.3(@types/node@26.6.3)(conventional-commits-parser@7.1.2)(typescript@6.0.3))':
     dependencies:
       '@commitlint/cli': 21.2.3(@types/node@26.6.3)(conventional-commits-parser@7.1.2)(typescript@6.0.3)
       '@commitlint/config-conventional': 21.2.3
