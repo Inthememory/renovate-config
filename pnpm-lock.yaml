@@ -202,8 +202,8 @@ importers:
         specifier: 44.126.0
         version: 44.126.0(supports-color@7.2.0)(typanion@3.14.0)
       skills-npm:
-        specifier: 1.2.1
-        version: 1.2.1
+        specifier: 3.0.0
+        version: 3.0.0
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -4977,8 +4977,14 @@ packages:
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
-  skills-npm@1.2.1:
-    resolution: {integrity: sha512-ARLt5DfiL6uzu4t/Hf329Jy+9U5a5qDrj+nS4Z+xPPDLTbbgl3SuzICKY+RU38akZHVQ29LbzeEPTAFiq9+Afg==}
+  skills-npm@3.0.0:
+    resolution: {integrity: sha512-5sLFI2qZ8MfO0kuL1rgbKx/xEfkozhxiGvQbQOanpYaSP6rOMkmgOGjsMgM4r8jLfW9dUkVZQxES8hMqBCPHIA==}
+    engines: {node: '>=22.20.0'}
+    hasBin: true
+
+  skills@1.7.0:
+    resolution: {integrity: sha512-OfePnDft+Xt9/tCoHdCUe5fkM8i+Q3QOSQO53hm7mKtsXyvc+CKOAAliVWZ484HS3cWx+6r+ob0AArixs3jYXw==}
+    engines: {node: '>=22.20.0'}
     hasBin: true
 
   slugify@1.6.9:
@@ -11636,14 +11642,20 @@ snapshots:
 
   sisteransi@1.0.5: {}
 
-  skills-npm@1.2.1:
+  skills-npm@3.0.0:
     dependencies:
       '@clack/prompts': 1.8.1
       cac: 7.0.0
       picocolors: 1.1.1
+      skills: 1.7.0
       tinyglobby: 0.2.17
       unconfig: 7.5.0
       xdg-basedir: 5.1.0
+      yaml: 2.9.1
+
+  skills@1.7.0:
+    dependencies:
+      tar: 7.5.22
       yaml: 2.9.1
 
   slugify@1.6.9: {}
