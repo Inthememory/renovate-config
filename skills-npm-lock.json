@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "skills": {
+    "c4-architecture": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/c4-architecture/SKILL.md"
+    },
+    "code-review": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/code-review/SKILL.md"
+    },
+    "codebase-design": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/codebase-design/SKILL.md"
+    },
+    "diagnosing-bugs": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/diagnosing-bugs/SKILL.md"
+    },
+    "domain-modeling": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/domain-modeling/SKILL.md"
+    },
+    "frontend-design": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/frontend-design/SKILL.md"
+    },
+    "grill-me": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/grill-me/SKILL.md"
+    },
+    "grill-with-docs": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/grill-with-docs/SKILL.md"
+    },
+    "grilling": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/grilling/SKILL.md"
+    },
+    "handoff": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/handoff/SKILL.md"
+    },
+    "implement": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/implement/SKILL.md"
+    },
+    "improve-codebase-architecture": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/improve-codebase-architecture/SKILL.md"
+    },
+    "okf-open-knowledge-format": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/okf-open-knowledge-format/SKILL.md"
+    },
+    "prototype": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/prototype/SKILL.md"
+    },
+    "research": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/research/SKILL.md"
+    },
+    "resolving-merge-conflicts": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/resolving-merge-conflicts/SKILL.md"
+    },
+    "tdd": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/tdd/SKILL.md"
+    },
+    "to-spec": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/to-spec/SKILL.md"
+    },
+    "to-tickets": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/to-tickets/SKILL.md"
+    },
+    "vusion-applying-standards": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/vusion-applying-standards/SKILL.md"
+    },
+    "vusion-planning-deliberately": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/vusion-planning-deliberately/SKILL.md"
+    },
+    "vusion-using-knowledge": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/vusion-using-knowledge/SKILL.md"
+    },
+    "wayfinder": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/wayfinder/SKILL.md"
+    },
+    "writing-for-agents": {
+      "package": "@inthememory/agent-config",
+      "version": "1.6.0",
+      "skillPath": "skills/writing-for-agents/SKILL.md"
+    }
+  }
+}
