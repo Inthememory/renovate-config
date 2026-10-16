@@ -42,7 +42,7 @@
     "@inthememory/agent-config": "1.6.0",
     "@inthememory/commitlint-config": "1.33.0",
     "@inthememory/eslint-config": "1.22.2",
-    "@inthememory/lefthook-config": "1.13.2",
+    "@inthememory/lefthook-config": "1.14.1",
     "@inthememory/tsconfig": "1.1.1",
     "@inthememory/vitest-config": "4.0.2",
     "eslint": "10.12.0",
