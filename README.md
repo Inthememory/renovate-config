@@ -17,6 +17,7 @@
   - When a Dev-class dependency (npm `devDependencies` or pnpm named catalog `dev`) is self-validated by CI
   - When project is following semantic-versioning and well maintained
   - When a git submodule points at github.com/Inthememory/* (digest PRs automerge once CI is green)
+  - When a Project-config package (npm published from github.com/Inthememory/project-config) updates major, minor, or patch (one PR per package once CI is green)
 - 🔗 Git submodules skip the release-age wait (commit pointers are not published releases; delay would stall updates forever on a busy source branch)
 - 🚄 Focus on productivity
   - The configuration should not overburden the team by creating a great amount of PR, it should be a safe way to automate and save time

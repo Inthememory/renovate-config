@@ -11,3 +11,7 @@ _Avoid_: Dev dependency (when meaning only `package.json`), catalog dependency (
 **pnpm.catalog.dev**:
 Renovate's depType for entries in the pnpm named catalog `dev`. Not the default catalog or any other named catalog.
 _Avoid_: pnpm.catalog, catalog.dev (as a Renovate matcher without the `pnpm.` prefix)
+
+**Project-config package**:
+An npm package published from the Inthememory/project-config repository.
+_Avoid_: @inthememory package, Vusion monorepo package

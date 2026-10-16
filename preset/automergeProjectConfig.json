@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge npm packages published from Inthememory/project-config",
+  "packageRules": [
+    {
+      "description": "Automerge major, minor, and patch for every npm package whose source is github.com/Inthememory/project-config. Packages are versioned independently, so each stays in its own PR. History was already reviewed in the source repo; consuming-repo CI remains the merge gate.",
+      "matchManagers": ["npm"],
+      "matchSourceUrls": ["https://github.com/Inthememory/project-config"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "automerge": true
+    }
+  ]
+}

@@ -9,6 +9,7 @@
     "github>Inthememory/renovate-config//preset/automergeVersionManagers",
     "github>Inthememory/renovate-config//preset/automergeLockFileMaintenance",
     "github>Inthememory/renovate-config//preset/automergeSecurity",
-    "github>Inthememory/renovate-config//preset/automergeGitSubmodules"
+    "github>Inthememory/renovate-config//preset/automergeGitSubmodules",
+    "github>Inthememory/renovate-config//preset/automergeProjectConfig"
   ]
 }
