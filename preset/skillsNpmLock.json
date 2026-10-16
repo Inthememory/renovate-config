@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Refresh skills-npm-lock.json after skills-npm or @inthememory/agent-config upgrades when the lockfile is present at the repo root",
+  "packageRules": [
+    {
+      "description": "When skills-npm or @inthememory/agent-config is upgraded and skills-npm-lock.json exists at the repo root, re-sync skills so the lock and .agents/skills links match the new package versions.",
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["skills-npm", "@inthememory/agent-config"],
+      "postUpgradeTasks": {
+        "commands": [
+          "if [ -f skills-npm-lock.json ]; then npx skills-npm --force --yes; fi"
+        ],
+        "fileFilters": ["skills-npm-lock.json", ".agents/skills/**"],
+        "executionMode": "update"
+      }
+    }
+  ]
+}
