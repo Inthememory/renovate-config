@@ -41,7 +41,7 @@
     "@commitlint/cli": "21.2.3",
     "@inthememory/agent-config": "1.6.1",
     "@inthememory/commitlint-config": "1.33.0",
-    "@inthememory/eslint-config": "1.22.2",
+    "@inthememory/eslint-config": "1.23.3",
     "@inthememory/lefthook-config": "1.14.1",
     "@inthememory/tsconfig": "1.1.1",
     "@inthememory/vitest-config": "4.1.1",
