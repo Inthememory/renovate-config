@@ -16,5 +16,6 @@ jobs:
 
   pr-validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - run: echo "PR validation workflow is private and cannot be accessed by a public repository"
