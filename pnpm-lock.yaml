@@ -187,10 +187,10 @@ importers:
         version: 1.33.0(@commitlint/cli@21.2.3(@types/node@26.6.5)(conventional-commits-parser@7.1.3)(typescript@6.0.3))
       '@inthememory/eslint-config':
         specifier: 1.23.3
-        version: 1.23.3(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.9)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.5)
+        version: 1.23.3(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.5)
       '@inthememory/lefthook-config':
         specifier: 1.14.1
-        version: 1.14.1(@commitlint/cli@21.2.3(@types/node@26.6.5)(conventional-commits-parser@7.1.3)(typescript@6.0.3))(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.2.2)(prettier@3.9.9)
+        version: 1.14.1(@commitlint/cli@21.2.3(@types/node@26.6.5)(conventional-commits-parser@7.1.3)(typescript@6.0.3))(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.2.2)(prettier@3.9.10)
       '@inthememory/tsconfig':
         specifier: 1.1.1
         version: 1.1.1(typescript@6.0.3)
@@ -201,8 +201,8 @@ importers:
         specifier: 10.13.0
         version: 10.13.0(jiti@2.7.0)(supports-color@7.2.0)
       renovate:
-        specifier: 44.165.1
-        version: 44.165.1(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.165.3
+        version: 44.165.3(supports-color@7.2.0)(typanion@3.14.0)
       skills-npm:
         specifier: 4.1.0
         version: 4.1.0
@@ -1017,8 +1017,8 @@ packages:
       '@opentelemetry/api':
         optional: true
 
-  '@renovatebot/base-image@13.132.1':
-    resolution: {integrity: sha512-g5lqE8CeiO6pJouhIb/LzdDoptE0Ws+kigHMz/Enejs5QviLJPGXQmdYKnP953Gr5b9Y+8WLWH75GQ0Cun3UeA==}
+  '@renovatebot/base-image@13.132.2':
+    resolution: {integrity: sha512-VD9l0jniOoC7dt9cpczpPwdE4sj0BB7eINfwvD+ReowUjf8+HwQv/fohgCV1/UYpo0+WQZoeAfiiQl4dn5m5ng==}
     engines: {node: '>=24.10.0'}
     peerDependencies:
       zod: ^4.0.0
@@ -3862,8 +3862,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.9.9:
-    resolution: {integrity: sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==}
+  prettier@3.9.10:
+    resolution: {integrity: sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3977,8 +3977,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.165.1:
-    resolution: {integrity: sha512-3UMIjDp9FDKBJigxFO27O2rdLdQaXjNpOXQM5xXYYbRsJPIM1wfhbudXflroFHr3Q/oNrEZE3U9cAisbwWlnEA==}
+  renovate@44.165.3:
+    resolution: {integrity: sha512-dnhuXm5jCnl6lnwSe1LwI524EdxVVHCava3FoscVtIwh7i2mK/ELuGmfT605FfGw/xVKHnH1nQpDBQDXpN9RAA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -5401,12 +5401,12 @@ snapshots:
       '@commitlint/config-conventional': 21.2.3
       '@commitlint/types': 21.2.3
 
-  '@inthememory/eslint-config@1.23.3(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.9)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.5)':
+  '@inthememory/eslint-config@1.23.3(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.5)':
     dependencies:
       '@inthememory/eslint-plugin-spectra-ui': 6.0.0(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))
       '@tanstack/eslint-plugin-query': 5.104.4(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       '@w5s/dev': 7.0.0
-      '@w5s/eslint-config': 7.1.2(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.9)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.5)
+      '@w5s/eslint-config': 7.1.2(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.5)
       eslint: 10.13.0(jiti@2.7.0)(supports-color@7.2.0)
       eslint-plugin-storybook: 10.6.2(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       eslint-plugin-testing-library: 7.16.2(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
@@ -5428,12 +5428,12 @@ snapshots:
     dependencies:
       eslint: 10.13.0(jiti@2.7.0)(supports-color@7.2.0)
 
-  '@inthememory/lefthook-config@1.14.1(@commitlint/cli@21.2.3(@types/node@26.6.5)(conventional-commits-parser@7.1.3)(typescript@6.0.3))(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.2.2)(prettier@3.9.9)':
+  '@inthememory/lefthook-config@1.14.1(@commitlint/cli@21.2.3(@types/node@26.6.5)(conventional-commits-parser@7.1.3)(typescript@6.0.3))(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.2.2)(prettier@3.9.10)':
     dependencies:
       '@commitlint/cli': 21.2.3(@types/node@26.6.5)(conventional-commits-parser@7.1.3)(typescript@6.0.3)
       eslint: 10.13.0(jiti@2.7.0)(supports-color@7.2.0)
       lefthook: 2.2.2
-      prettier: 3.9.9
+      prettier: 3.9.10
 
   '@inthememory/tsconfig@1.1.1(typescript@6.0.3)':
     dependencies:
@@ -5792,7 +5792,7 @@ snapshots:
     optionalDependencies:
       '@opentelemetry/api': 1.9.1
 
-  '@renovatebot/base-image@13.132.1(zod@4.6.5)':
+  '@renovatebot/base-image@13.132.2(zod@4.6.5)':
     dependencies:
       '@containerbase/base': 14.42.0(zod@4.6.5)
     optionalDependencies:
@@ -6215,7 +6215,7 @@ snapshots:
       eslint: 10.13.0(jiti@2.7.0)(supports-color@7.2.0)
       typescript: 6.0.3
 
-  '@w5s/eslint-config@7.1.2(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.9)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.5)':
+  '@w5s/eslint-config@7.1.2(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.5)':
     dependencies:
       '@e18e/eslint-plugin': 0.8.1(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))
       '@eslint-react/eslint-plugin': 5.24.10(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
@@ -6228,7 +6228,7 @@ snapshots:
       '@vitest/eslint-plugin': 1.6.27(@typescript-eslint/eslint-plugin@8.71.2(@typescript-eslint/parser@8.71.2(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.0.5)
       '@w5s/dev': 7.0.0
       '@w5s/eslint-config-ignore': 1.34.0(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(typescript@6.0.3)
-      '@w5s/prettier-config': 3.29.1(prettier@3.9.9)
+      '@w5s/prettier-config': 3.29.1(prettier@3.9.10)
       eslint-merge-processors: 2.0.0(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))
       eslint-plugin-github-actions-2: 2.0.0(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.71.2(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.13.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)
@@ -6259,9 +6259,9 @@ snapshots:
       - ts-declaration-location
       - vitest
 
-  '@w5s/prettier-config@3.29.1(prettier@3.9.9)':
+  '@w5s/prettier-config@3.29.1(prettier@3.9.10)':
     optionalDependencies:
-      prettier: 3.9.9
+      prettier: 3.9.10
 
   '@yarnpkg/core@4.9.1(typanion@3.14.0)':
     dependencies:
@@ -9094,7 +9094,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.9.9: {}
+  prettier@3.9.10: {}
 
   pretty-ms@9.3.1:
     dependencies:
@@ -9251,7 +9251,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.165.1(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.165.3(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -9284,7 +9284,7 @@ snapshots:
       '@pnpm/parse-overrides': 1001.0.4
       '@qnighy/marshal': 0.1.3
       '@redis/client': 6.3.0(@opentelemetry/api@1.9.1)
-      '@renovatebot/base-image': 13.132.1(zod@4.6.5)
+      '@renovatebot/base-image': 13.132.2(zod@4.6.5)
       '@renovatebot/detect-tools': 4.0.21
       '@renovatebot/good-enough-parser': 2.0.1
       '@renovatebot/osv-offline': 3.0.12(supports-color@7.2.0)
@@ -9337,7 +9337,6 @@ snapshots:
       jsonata: 2.2.1
       jsonc-weaver: 0.3.1
       klona: 2.0.6
-      lru-cache: 11.5.3
       luxon: 3.7.2
       markdown-it: 15.0.2
       markdown-table: 3.0.4
@@ -9351,7 +9350,7 @@ snapshots:
       p-queue: 9.3.3
       p-throttle: 8.1.1
       parse-link-header: 2.0.0
-      prettier: 3.9.9
+      prettier: 3.9.10
       protobufjs: 8.8.0
       punycode: 2.3.1
       remark: 15.0.1(supports-color@7.2.0)
@@ -9369,7 +9368,6 @@ snapshots:
       strip-json-comments: 5.0.3
       tar: 7.5.22
       toml-eslint-parser: 1.0.3
-      tslib: 2.8.1
       upath: 3.0.8
       url-join: 5.0.0
       validate-npm-package-name: 7.0.2
