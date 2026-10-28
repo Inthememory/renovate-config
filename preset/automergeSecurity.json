@@ -2,15 +2,20 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Automerge security vulnerability alerts",
   "vulnerabilityAlerts": {
-    "automerge": true,
     "automergeType": "pr",
-    "platformAutomerge": true
-  },
-  "packageRules": [
-    {
-      "description": "Do not automerge major security bumps without review",
-      "matchUpdateTypes": ["major"],
-      "vulnerabilityAlerts": { "automerge": false }
-    }
-  ]
+    "platformAutomerge": true,
+    "packageRules": [
+      {
+        "description": "Automerge security vulnerability alerts",
+        "matchJsonata": ["isVulnerabilityAlert = true"],
+        "automerge": true
+      },
+      {
+        "description": "Do not automerge major security bumps without review",
+        "matchJsonata": ["isVulnerabilityAlert = true"],
+        "matchUpdateTypes": ["major"],
+        "automerge": false
+      }
+    ]
+  }
 }
