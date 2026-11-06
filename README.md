@@ -19,6 +19,7 @@
   - When a git submodule points at github.com/Inthememory/* (digest PRs automerge once CI is green)
   - When a Project-config package (npm published from github.com/Inthememory/project-config) updates major, minor, or patch (one PR per package once CI is green)
 - 🔗 Git submodules skip the release-age wait (commit pointers are not published releases; delay would stall updates forever on a busy source branch)
+- 🔒 Lock file maintenance skips the release-age wait (those branches have no release timestamp, so the stability check stays pending and automerge never finishes)
 - 🚄 Focus on productivity
   - The configuration should not overburden the team by creating a great amount of PR, it should be a safe way to automate and save time
 - ✓ Main Supported Technologies

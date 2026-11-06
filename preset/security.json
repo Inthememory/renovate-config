@@ -6,6 +6,10 @@
     "schedule": [],
     "minimumReleaseAge": null
   },
+  "lockFileMaintenance": {
+    "description": "Skip minimumReleaseAge for lock file maintenance. The branch has no release timestamp because the package manager rewrites the lock file, so with the default timestamp-required behaviour, renovate/stability-days stays pending and automerge never finishes. Version bumps keep the two-day and seven-day gates.",
+    "minimumReleaseAge": null
+  },
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
