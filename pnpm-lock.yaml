@@ -186,8 +186,8 @@ importers:
         specifier: 1.33.2
         version: 1.33.2(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.3)(typescript@6.0.3))
       '@inthememory/eslint-config':
-        specifier: 1.23.5
-        version: 1.23.5(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.0(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(yaml@2.9.1)))
+        specifier: 1.23.6
+        version: 1.23.6(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.0(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(yaml@2.9.1)))
       '@inthememory/lefthook-config':
         specifier: 1.14.2
         version: 1.14.2(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.3)(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.2.2)(prettier@3.9.10)
@@ -667,8 +667,8 @@ packages:
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
 
-  '@inthememory/eslint-config@1.23.5':
-    resolution: {integrity: sha512-BH9h2i6kzUJrfm/I7JiOeJ1nmZhV3AcxsxdGZ4RJUob/rE+wkMlFm7Lw/nhAl4/DRlqB2aBlK8vDpn9HpP0+wQ==, tarball: https://npm.pkg.github.com/download/@inthememory/eslint-config/1.23.5/8a13d942ad5a59a2cc103ca18172239e899269d1}
+  '@inthememory/eslint-config@1.23.6':
+    resolution: {integrity: sha512-gwwTSHMnpVkmBnxXGEkjxpeaFM2Y1HCnitQZntKbi2Z1SUZx2gdw2anOL26oygKzHiic7l9lhJ+qoIkd3Q/e5w==, tarball: https://npm.pkg.github.com/download/@inthememory/eslint-config/1.23.6/e5c7444a71e43e03719eb0d4e5bc178c3458c0f5}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       eslint: 9.x || 10.x
@@ -5424,7 +5424,7 @@ snapshots:
       '@commitlint/config-conventional': 21.2.4
       '@commitlint/types': 21.2.3
 
-  '@inthememory/eslint-config@1.23.5(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.0(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(yaml@2.9.1)))':
+  '@inthememory/eslint-config@1.23.6(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.0(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(yaml@2.9.1)))':
     dependencies:
       '@inthememory/eslint-plugin-spectra-ui': 6.1.0(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))
       '@tanstack/eslint-plugin-query': 5.105.0(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
