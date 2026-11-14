@@ -46,7 +46,7 @@
     "@inthememory/tsconfig": "1.1.2",
     "@inthememory/vitest-config": "4.1.2",
     "eslint": "10.14.0",
-    "renovate": "44.222.5",
+    "renovate": "44.236.2",
     "skills-npm": "4.1.0",
     "typescript": "6.0.3",
     "vitest": "5.1.0"
