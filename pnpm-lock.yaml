@@ -186,8 +186,8 @@ importers:
         specifier: 1.33.2
         version: 1.33.2(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.4)(typescript@6.0.3))
       '@inthememory/eslint-config':
-        specifier: 1.23.7
-        version: 1.23.7(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.0)
+        specifier: 1.24.0
+        version: 1.24.0(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.0)
       '@inthememory/lefthook-config':
         specifier: 1.14.2
         version: 1.14.2(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.4)(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.2.2)(prettier@3.9.10)
@@ -667,8 +667,8 @@ packages:
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
 
-  '@inthememory/eslint-config@1.23.7':
-    resolution: {integrity: sha512-pkpKJ1qu+2/SfC3WDD4dlKsXVV0OwtGpkgpfV+a/gGWoQvp/6entVWOVYZcRHIsrI518kAcjHkTF/9kTwNu+Uw==, tarball: https://npm.pkg.github.com/download/@inthememory/eslint-config/1.23.7/f3a731ee2f4390a76149d6b02294587cc80e2f15}
+  '@inthememory/eslint-config@1.24.0':
+    resolution: {integrity: sha512-3zWja/rMYj2yAYwo2RqozjHsi7/HM0WuD3DA3uvVNDqDGyQozIPP4oazDhKbfiTls6Mw56JPjD2igQGclWYp6g==, tarball: https://npm.pkg.github.com/download/@inthememory/eslint-config/1.24.0/2066fd1a3505540373073c83e34b2fb4bb872341}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       eslint: 9.x || 10.x
@@ -5430,7 +5430,7 @@ snapshots:
       '@commitlint/config-conventional': 21.2.4
       '@commitlint/types': 21.2.3
 
-  '@inthememory/eslint-config@1.23.7(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.0)':
+  '@inthememory/eslint-config@1.24.0(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.0)':
     dependencies:
       '@inthememory/eslint-plugin-spectra-ui': 6.1.0(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))
       '@tanstack/eslint-plugin-query': 5.107.1(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
