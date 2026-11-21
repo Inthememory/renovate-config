@@ -195,8 +195,8 @@ importers:
         specifier: 1.33.2
         version: 1.33.2(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.4)(typescript@6.0.3))
       '@inthememory/eslint-config':
-        specifier: 1.24.0
-        version: 1.24.0(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.1(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.8(@types/node@26.6.6)(jiti@2.7.0)(yaml@2.9.1)))
+        specifier: 1.24.1
+        version: 1.24.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.1(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.8(@types/node@26.6.6)(jiti@2.7.0)(yaml@2.9.1)))
       '@inthememory/lefthook-config':
         specifier: 1.14.2
         version: 1.14.2(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.4)(typescript@6.0.3))(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(lefthook@2.2.2)(prettier@3.9.10)
@@ -685,8 +685,8 @@ packages:
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
 
-  '@inthememory/eslint-config@1.24.0':
-    resolution: {integrity: sha512-3zWja/rMYj2yAYwo2RqozjHsi7/HM0WuD3DA3uvVNDqDGyQozIPP4oazDhKbfiTls6Mw56JPjD2igQGclWYp6g==, tarball: https://npm.pkg.github.com/download/@inthememory/eslint-config/1.24.0/2066fd1a3505540373073c83e34b2fb4bb872341}
+  '@inthememory/eslint-config@1.24.1':
+    resolution: {integrity: sha512-Mh71fN8liluDNkfk/TOCArKz0/0VR58xo/xACLp6l+TDOBeIflr5dHmcdoD+wtu1WuMwGeuLPx1hZAx+A42RdQ==, tarball: https://npm.pkg.github.com/download/@inthememory/eslint-config/1.24.1/27f56140c396c5a5f51633b0ff7f70105e87b6e6}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       eslint: 9.x || 10.x
@@ -1249,8 +1249,8 @@ packages:
     resolution: {integrity: sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==}
     engines: {node: '>=10'}
 
-  '@tanstack/eslint-plugin-query@5.107.1':
-    resolution: {integrity: sha512-ouojB8ML40E9+Kbxao52IKU0x3528FXHnQlMS5d8fpV/fVnsCRYmfg2PMaMzYEvgCqdxTtvZfrfbSOGf2qoCpw==}
+  '@tanstack/eslint-plugin-query@5.108.1':
+    resolution: {integrity: sha512-OzaAk7XF08PntuHI85FdUhVMa+Cot3uTfkqsk/a5lAz/9i/pNKn1mnrI8PCEkSWfQzO6l1Qy40UFrCCGofEqhg==}
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
       typescript: ^5.6.0 || ^6.0.0 || ^7.0.0
@@ -5501,10 +5501,10 @@ snapshots:
       '@commitlint/config-conventional': 21.2.4
       '@commitlint/types': 21.2.3
 
-  '@inthememory/eslint-config@1.24.0(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.1(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.8(@types/node@26.6.6)(jiti@2.7.0)(yaml@2.9.1)))':
+  '@inthememory/eslint-config@1.24.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.1(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.8(@types/node@26.6.6)(jiti@2.7.0)(yaml@2.9.1)))':
     dependencies:
       '@inthememory/eslint-plugin-spectra-ui': 6.1.0(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))
-      '@tanstack/eslint-plugin-query': 5.107.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
+      '@tanstack/eslint-plugin-query': 5.108.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       '@w5s/dev': 7.0.0
       '@w5s/eslint-config': 7.1.2(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.9.10)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.1(@opentelemetry/api@1.10.0)(@types/node@26.6.6)(vite@8.3.8(@types/node@26.6.6)(jiti@2.7.0)(yaml@2.9.1)))
       eslint: 10.15.0(jiti@2.7.0)(supports-color@7.2.0)
@@ -6050,7 +6050,7 @@ snapshots:
     dependencies:
       defer-to-connect: 2.0.1
 
-  '@tanstack/eslint-plugin-query@5.107.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)':
+  '@tanstack/eslint-plugin-query@5.108.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)':
     dependencies:
       '@typescript-eslint/utils': 8.73.0(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       eslint: 10.15.0(jiti@2.7.0)(supports-color@7.2.0)
