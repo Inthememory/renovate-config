@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Group TanStack AI npm packages (@tanstack/ai and its adapters). Adapters peer-depend on @tanstack/ai, so they must be upgraded together. Batched weekly because the packages release very often.",
+  "packageRules": [
+    {
+      "description": "TanStack AI core and adapters from https://github.com/TanStack/ai (@tanstack/ai, @tanstack/ai-openai, ...).",
+      "matchPackageNames": ["@tanstack/ai", "@tanstack/ai-*"],
+      "groupName": "tanstack ai",
+      "groupSlug": "tanstack-ai",
+      "schedule": ["before 6am on monday"]
+    }
+  ]
+}
