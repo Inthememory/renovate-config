@@ -3,13 +3,16 @@
   "description": "Refresh skills-npm-lock.json after skills-npm or @inthememory/agent-config upgrades when the lockfile is present at the repo root",
   "packageRules": [
     {
-      "description": "When skills-npm or @inthememory/agent-config is upgraded and skills-npm-lock.json exists at the repo root, re-sync skills so the lock and .agents/skills links match the new package versions.",
+      "description": "When skills-npm or @inthememory/agent-config is upgraded and skills-npm-lock.json exists at the repo root, re-sync skills so the lock and .agents/skills links match the new package versions. Renovate only updates the lockfile, so dependencies are installed first: skills-npm discovers skills in node_modules.",
       "matchManagers": ["npm"],
       "matchPackageNames": ["skills-npm", "@inthememory/agent-config"],
       "postUpgradeTasks": {
         "commands": [
-          "if [ -f skills-npm-lock.json ]; then npx skills-npm --force --yes; fi"
+          "if [ -f skills-npm-lock.json ]; then pnpm install --frozen-lockfile --ignore-scripts && pnpm exec skills-npm --force --yes; fi"
         ],
+        "installTools": {
+          "pnpm": {}
+        },
         "fileFilters": ["skills-npm-lock.json", ".agents/skills/**"],
         "executionMode": "update"
       }
