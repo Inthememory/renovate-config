@@ -220,8 +220,8 @@ importers:
         specifier: 10.15.0
         version: 10.15.0(jiti@2.7.0)(supports-color@7.2.0)
       renovate:
-        specifier: 44.259.0
-        version: 44.259.0(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.259.1
+        version: 44.259.1(supports-color@7.2.0)(typanion@3.14.0)
       skills-npm:
         specifier: 4.1.0
         version: 4.1.0
@@ -2884,10 +2884,6 @@ packages:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
-  ignore@7.0.14:
-    resolution: {integrity: sha512-wCBiZ77u1tuWde6G/nfOtLaCTYcFDU5yCzARzK10y+rLhzYoL7a7yEemcopcc2Mzow7gZOIjnV2ym1NYmdiJOQ==}
-    engines: {node: '>= 4'}
-
   ignore@7.0.16:
     resolution: {integrity: sha512-52N+Y4HRMOJmbLmr+DqO4iSRyyB7N52gm7PWCT6h0p978+oKbqHCB7gIJIwZvBUsjlSdWbrBFqUSmIFNZMpn0A==}
     engines: {node: '>= 4'}
@@ -4050,8 +4046,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.259.0:
-    resolution: {integrity: sha512-L4Ebgq4PE/QphZMsu+eHeYDp3ApJUrtyniHeqx3UGO5aqBLV/48YSB0kb6G0RMV8BYXDfEym9rGmUMdh7qoTQA==}
+  renovate@44.259.1:
+    resolution: {integrity: sha512-XkCG1H8ya3JFhEGuKB4CrQoogpV+aPl8eFmke+y22+iDQ+XzLdHTr5ISN+WMFdic5La07SL1v5QZsC9NbGJPAQ==}
     engines: {node: ^24.11.0 || ^26.13.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -8060,8 +8056,6 @@ snapshots:
 
   ignore@5.3.2: {}
 
-  ignore@7.0.14: {}
-
   ignore@7.0.16: {}
 
   import-fresh@3.3.1:
@@ -9403,7 +9397,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.259.0(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.259.1(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -9481,7 +9475,7 @@ snapshots:
       got: 16.2.0
       graph-data-structure: 4.5.0
       handlebars: 4.7.10
-      ignore: 7.0.14
+      ignore: 7.0.16
       ini: 6.0.0
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 4.0.0
