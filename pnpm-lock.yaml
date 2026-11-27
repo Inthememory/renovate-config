@@ -202,8 +202,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0
       '@inthememory/commitlint-config':
-        specifier: 1.33.2
-        version: 1.33.2(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.4)(typescript@6.0.3))
+        specifier: 1.33.3
+        version: 1.33.3(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.4)(typescript@6.0.3))
       '@inthememory/eslint-config':
         specifier: 1.24.1
         version: 1.24.1(eslint@10.15.0(jiti@2.7.0)(supports-color@7.2.0))(prettier@3.10.1)(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.1)
@@ -689,8 +689,8 @@ packages:
     resolution: {integrity: sha512-XlnJo02e5fM6Qns2L39hkjIxZNgXJE1P3/x7+MwwmZUTr+DxBiikPVQylnaSK2lqU8xNDl4Okkp3KuCW2r3hHA==, tarball: https://npm.pkg.github.com/download/@inthememory/agent-config/2.1.0/a01f7cdd3a66f357f8e3c5869e002a0e42304e59}
     engines: {node: '>=20.0.0'}
 
-  '@inthememory/commitlint-config@1.33.2':
-    resolution: {integrity: sha512-T01vspwziAsDYSH+OvzURJncL2Wlxe5ct5kUrGsTL5qxmeUVwG5hQgWrWqwYV5YzKE0Cmhh2kMtXyC1oVNz9Xw==, tarball: https://npm.pkg.github.com/download/@inthememory/commitlint-config/1.33.2/bb771514d828f8702dc55272b15c26093918d36e}
+  '@inthememory/commitlint-config@1.33.3':
+    resolution: {integrity: sha512-BqtPLB9DJfsGlzzuQ54k7bGHWqiYftIyEm0fL7qVnLc5R1LGtVVMKLCdAYWRL107JrE4BR3uMryLUKoU+csghA==, tarball: https://npm.pkg.github.com/download/@inthememory/commitlint-config/1.33.3/e2a2337fb831f9fffae978950883e5d9b06559fa}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@commitlint/cli': ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0
@@ -5501,7 +5501,7 @@ snapshots:
 
   '@inthememory/agent-config@2.1.0': {}
 
-  '@inthememory/commitlint-config@1.33.2(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.4)(typescript@6.0.3))':
+  '@inthememory/commitlint-config@1.33.3(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.4)(typescript@6.0.3))':
     dependencies:
       '@commitlint/cli': 21.2.4(conventional-commits-parser@7.1.4)(typescript@6.0.3)
       '@commitlint/config-conventional': 21.2.4
