@@ -30,8 +30,6 @@
     "format:root": "eslint . --fix",
     "lint": "pnpm run \"/^lint:.*/\"",
     "lint:root": "eslint . --cache",
-    "prepare": "pnpm run \"/^prepare:.*/\"",
-    "prepare:skills-sync": "if [ -z \"$CI\" ]; then skills-npm --force --yes; fi",
     "release": ":",
     "rescue": "git clean -fdx; pnpm install",
     "test": "vitest run",
