@@ -46,6 +46,19 @@ jobs:
       # install dependencies
       - name: 📦 Install dependencies
         run: pnpm install
+      # The prepare:skills-sync script is guarded with `[ -z "$CI" ]`. Empty CI
+      # for this step only so the check regenerates links and fails when they
+      # drifted (e.g. after an @inthememory/agent-config rename).
+      - name: 🔄 Check agent skills
+        env:
+          CI: ''
+        run: |
+          pnpm run prepare:skills-sync
+          if [ -n "$(git status --porcelain --untracked-files=all -- skills-npm-lock.json .agents/skills)" ]; then
+            echo '::error title=Agent skills out of sync::Run `pnpm run prepare:skills-sync` locally and commit skills-npm-lock.json and .agents/skills.'
+            git status --porcelain --untracked-files=all -- skills-npm-lock.json .agents/skills
+            exit 1
+          fi
       # validate
       - name: ✅ Validate
         run: pnpm run validate

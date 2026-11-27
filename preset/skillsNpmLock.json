@@ -1,18 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Refresh skills-npm-lock.json after skills-npm or @inthememory/agent-config upgrades when the lockfile is present at the repo root",
-  "packageRules": [
-    {
-      "description": "When skills-npm or @inthememory/agent-config is upgraded and skills-npm-lock.json exists at the repo root, re-sync skills so the lock and .agents/skills links match the new package versions.",
-      "matchManagers": ["npm"],
-      "matchPackageNames": ["skills-npm", "@inthememory/agent-config"],
-      "postUpgradeTasks": {
-        "commands": [
-          "if [ -f skills-npm-lock.json ]; then npx skills-npm --force --yes; fi"
-        ],
-        "fileFilters": ["skills-npm-lock.json", ".agents/skills/**"],
-        "executionMode": "update"
-      }
-    }
-  ]
+  "description": "Deprecated no-op. Agent-skills refresh cannot run as a Renovate post-upgrade task: Renovate only updates the lockfile and never installs node_modules, which skills-npm needs. Use Inthememory/actions/sync-skills (check on every PR, fix on Renovate PRs) instead. Kept so existing extends keep resolving."
 }
